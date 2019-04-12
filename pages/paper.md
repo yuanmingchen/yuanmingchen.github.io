@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 论文
-description: 论文笔记
+tagline: 论文笔记
 keywords: 论文, paper
 comments: true
 permalink: /paper/
