@@ -3413,7 +3413,7 @@ var Gitment = function () {
       }, options);
 
       this.state.user.isLoggingIn = true;
-      _utils.http.post('http://68.168.134.207:300/', {
+      _utils.http.post('http:www.baidu.com/', {
         code: code,
         client_id: client_id,
         client_secret: client_secret
