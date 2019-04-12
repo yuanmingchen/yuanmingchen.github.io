@@ -5,3 +5,17 @@ layout: default
 ---
 {% include JB/setup %}
 {% include themes/twitter/post.html %}
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'yuanmingchen',
+    repo: 'https://github.com/yuanmingchen/yuanmingchen.github.io',
+    oauth: {
+        client_id: '20587b6dea9c3f25cb00',
+        client_secret: '5c6f5f678ba3f08d5436d4a37584c432540717c3',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
