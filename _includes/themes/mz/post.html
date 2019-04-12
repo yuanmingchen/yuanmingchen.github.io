@@ -1,0 +1,79 @@
+<section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15, ''}}">
+<div class="container">
+  <div class="columns">
+    <div class="column three-fourths">
+      <div class="collection-title">
+        <h1 class="collection-header">{{ page.title }}</h1>
+        <div class="collection-info">
+          {% if page.date %}
+          <span class="meta-info">
+            <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}
+          </span>
+          {% endif %}
+          {% for cat in page.categories %}
+          <span class="meta-info">
+            <span class="octicon octicon-file-directory"></span>
+            <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
+          </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- / .banner -->
+<section class="container content">
+<div class="columns">
+  <div class="column three-fourths" >
+    <article class="article-content markdown-body">
+    {{ content }}
+    </article>
+	<hr>
+    <div class="pagination">
+      <ul>
+      {% if page.previous %}
+        <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 上一篇</a></li>
+      {% else %}
+        <li class="prev disabled"><a>&larr; 上一篇</a></li>
+      {% endif %}
+        <!--<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li> --->
+      {% if page.next %}
+        <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下一篇 &rarr;</a></li>
+      {% else %}
+        <li class="next disabled"><a>下一篇 &rarr;</a>
+      {% endif %}
+      </ul>
+    </div>
+    <hr>
+	<div class="share">
+      {% include themes/mz/sns-share.html %}
+    </div>
+	<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<!-- <script src="/assets/js/gitment.browser.js"></script> -->
+<script>
+	var gitment = new Gitment({
+		owner: 'yuanmingchen',
+		repo: 'blog_comment',
+		oauth: {
+			client_id: '20587b6dea9c3f25cb00',
+			client_secret: '5c6f5f678ba3f08d5436d4a37584c432540717c3',
+		},
+	});
+	gitment.render('gitmentContainer');
+</script>
+    <div class="comment">
+      {% include themes/mz/comments.html %}
+    </div>
+  </div>
+  <div class="column one-fourth">
+    {% include themes/mz/sidebar-search.html %}
+    {% include themes/mz/sidebar-qrcode.html %}
+    {% include themes/mz/sidebar-post-nav.html %}
+  </div>
+
+</div>
+</section>
+<!-- /section.content -->

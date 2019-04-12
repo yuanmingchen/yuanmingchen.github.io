@@ -10,7 +10,7 @@ permalink: /paper/
 <ul class="listing">
 {% for paper in site.paper %}
 {% if paper.title != "paper Template" %}
-<li class="listing-item"><a href="{{ site.url }}{{ paper.url }}">{{ paper.title }}</a></li>
+	<li class="listing-item"><a href="{{ site.url }}{{ paper.url }}">{{ paper.title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>

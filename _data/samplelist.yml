@@ -1,17 +1,31 @@
 docs_list_title: ACME Documentation
 docs:
-
+- title: 主页
+  label: 主页
+  url: /
+  href: /
+  
 - title: 论文
+  label: 论文
   url: /paper
+  href: /paper
 
 - title: 笔记
+  label: 笔记
   url: /note
+  href: /note
 
 - title: 收藏
+  label: 收藏
   url: /collect
+  href: /collect
 
 - title: 资源
-  url: /download  
+  label: 资源
+  url: /download
+  href: /download
   
 - title: 关于
+  label: 关于
   url: /about
+  href: /about

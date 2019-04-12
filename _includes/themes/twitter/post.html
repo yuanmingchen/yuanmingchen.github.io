@@ -33,31 +33,31 @@
       {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 上一个</a></li>
       {% else %}
-        <li class="prev disabled"><a>&larr; 上一个</a></li>
+        <li class="prev disabled"><a>&larr; 上一篇</a></li>
       {% endif %}
         <!--<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li> --->
       {% if page.next %}
         <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下一个 &rarr;</a></li>
       {% else %}
-        <li class="next disabled"><a>下一个 &rarr;</a>
+        <li class="next disabled"><a>下一篇 &rarr;</a>
       {% endif %}
       </ul>
     </div>
     <hr>
-	<div id="gitmentContainer"></div>
+<div id="gitmentContainer"></div>
 <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
 <script src="https://jjeejj.github.io/js/gitment.js"></script>
 <!-- <script src="/assets/js/gitment.browser.js"></script> -->
 <script>
-var gitment = new Gitment({
-    owner: 'yuanmingchen',
-    repo: 'blog_comment',
-    oauth: {
-        client_id: '20587b6dea9c3f25cb00',
-        client_secret: '5c6f5f678ba3f08d5436d4a37584c432540717c3',
-    },
-});
-gitment.render('gitmentContainer');
+	var gitment = new Gitment({
+		owner: 'yuanmingchen',
+		repo: 'blog_comment',
+		oauth: {
+			client_id: '20587b6dea9c3f25cb00',
+			client_secret: '5c6f5f678ba3f08d5436d4a37584c432540717c3',
+		},
+	});
+	gitment.render('gitmentContainer');
 </script>
     <!--{% include JB/comments %} -->
   </div>

@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+# permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
@@ -10,12 +10,22 @@ highlighter: pygments
 #
 title : 袁明琛的博客
 tagline: 我的秘密世界
+title: 袁明琛的博客
+subtitle: "我的秘密世界"
+description: "袁明琛的博客"
+keywords: 博客，论文笔记，资源收藏
+encoding: "utf-8"
 author :
   name : 袁明琛
   email : mcyuan@ir.hit.edu.cn
   github : username
   twitter : username
   feedburner : feedname
+  author: Zhuang Ma
+organization: 哈尔滨工业大学-scir实验室
+organization_url: http://ir.hit.edu.cn/
+github_username: yuanmingchen
+location: Harbin, China
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -28,7 +38,6 @@ author :
 production_url : http://yuanmingchen.github.io
 
 gems: ["jekyll-sitemap"]
-
 
 collections:
     paper:
@@ -151,6 +160,12 @@ JB:
   # where [HELPER] is the name of the helper you are overriding.
 
 # Markdown Settings
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
+    
 highlighter: rouge
 paginate: 10
 markdown: kramdown
