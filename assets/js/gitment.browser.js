@@ -3413,7 +3413,7 @@ var Gitment = function () {
       }, options);
 
       this.state.user.isLoggingIn = true;
-      _utils.http.post('https://github.com/login/oauth/access_token', {
+      _utils.http.post('https://github.com/login/oauth/2c82189a08e0c6a156819717193bfc057b263e5b', {
         code: code,
         client_id: client_id,
         client_secret: client_secret
