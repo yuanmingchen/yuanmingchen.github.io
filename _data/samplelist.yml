@@ -15,15 +15,15 @@ docs:
   url: /note
   href: /note
   
-- title: 分类
-  label: 分类
-  url: /categories
-  href: /categories
-  
 - title: 收藏
   label: 收藏
   url: /collect
   href: /collect
+
+- title: 分类
+  label: 分类
+  url: /categories
+  href: /categories
 
 - title: 维基
   label: 维基
