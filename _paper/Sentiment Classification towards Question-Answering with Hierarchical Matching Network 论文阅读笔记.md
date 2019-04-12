@@ -1,18 +1,18 @@
 ---
-layout: default
+layout: post
 title: "Sentiment Classification towards Question-Answering with Hierarchical Matching Network 论文阅读笔记"
 description: "Sentiment Classification towards Question-Answering with Hierarchical Matching Network 论文阅读笔记"
 ---
 {% include JB/setup %}
 &#160; &#160; &#160; &#160;这篇论文介绍的是关于电商平台问答的情感分析，类似淘宝的“问大家”这种形式的问题对，根据问题答案对来分析其中的情感。
 
-**论文地址**：https://aclweb.org/anthology/D18-1401
+**论文地址**：<https://aclweb.org/anthology/D18-1401>
 
-**数据链接地址**：https://github.com/clshenNLP/QASC/
+**数据链接地址**：<https://github.com/clshenNLP/QASC/>
 
 **代码地址**：暂无代码。
 #### （1）该论文的贡献主要有两个：
- 1. 提出了一个新问题，即问答情感分析。并且上传了一份用于研究该问题的标注数据。数据链接地址：https://github.com/clshenNLP/QASC/
+ 1. 提出了一个新问题，即问答情感分析。并且上传了一份用于研究该问题的标注数据。数据链接地址：<https://github.com/clshenNLP/QASC/>
  2. 对这个新问题提出了一种专门的解决方法，即题目中的分层匹配神经网络。
 
 #### （2）论文概括
@@ -33,6 +33,7 @@ description: "Sentiment Classification towards Question-Answering with Hierarchi
 &#160; &#160; &#160; &#160;$D_{[i,j]}$中的第[a,b]个元素代表问题句子的第a个单词与回答句子中的第b个单词的语义相关性评分。作者采用了两个Attention，第一种是Answer-to-Question Attention，也就是使用答案句子对问题句子进行Attention。把$D_{[i,j]}$的每一行经过神经网络处理成权重（上角标r代表row），$D_{[i,j]}$的第k行代表问题句子的第k个单词与答案句子的每个单词的相关性，是词级别的Attention，实际上相当于用$H_{A_j}$与$H_{Q_i}$的每个时刻的输出进行Attention，然后计算每个时刻的权重，得到$H_{Q_i}$的加权后的表示$V_{[i,j]}^r$。
 
 &#160; &#160; &#160; &#160;其中$H_{Q_i}$是问题Q的第i个句子经过BiLSTM后的表示，$N_i$是时刻数，即问题句子的单词数；$H_{A_j}$是回答第j个句子经过BiLSTM后的表示，$M_j$是时刻数，即回答第j个句子的单词数。其中$h_{j,m}\in R^{d'}$，即每个单词（时刻）的表示都是$d'$维的。具体计算公式如下：
+
 $$
 \begin{aligned} H_{Q_{i}} &=\left[h_{i, 1}, h_{i, 2}, \ldots, h_{i, n}, \ldots, h_{i, N_{i}}\right] 
 \\ H_{A_{j}} &=\left[h_{j, 1}, h_{j, 2}, \ldots, h_{j, m}, \ldots, h_{j, M_{j}}\right] \end{aligned}
@@ -41,18 +42,22 @@ $$
 \\ {\alpha_{[i, j]}^{r}=\operatorname{softmax}\left(w_{r}^{\top} \cdot U_{[i, j]}^{r}\right)}\end{array}
 \\ V_{[i, j]}^{r}=\left(H_{Q_{i}}\right) \cdot \alpha_{[i, j]}^{r}
 $$
+
 其中$H_{Q_i}\in R^{d'\times N_i},H_{A_j}\in R^{d'\times M_j}$，所以$D_{[i,j]}\in R^{N_i\times M_j},W_r\in R^{d'\times M_j},w_r \in R^{d'}$，所以$U_{[i,j]}^r\in R^{d'\times N_i},\alpha_{[i, j]}^{r} \in \mathbb{R}^{N_{i}}，V_{[i,j]}^r\in R^{d'}$。
 
 &#160; &#160; &#160; &#160;而第二种显然就是Question-to-Answer Attention，也就是使用问题句子对回答句子进行Attention。使用问题句子的表示$H_{Q_i}$对答案句子$H_{A_j}$的每个时刻进行Attention，把$D_{[i,j]}$的每一列经过神经网络处理成权重（上角标c代表column），同理我们最后可以得到答案句子的新表示向量$V_{[i,j]}^c \in R^{d'}$，计算公式如下：
+
 $$
 \\\begin{array}{c}{U_{[i, j]}^{c}=\tanh \left(W_{c} \cdot D_{[i, j]}\right)} 
 \\ {\alpha_{[i, j]}^{c}=\operatorname{softmax}\left(w_{c}^{\top} \cdot U_{[i, j]}^{c}\right)}\end{array}
 \\ V_{[i, j]}^{c}=\left(H_{A_{j}}\right) \cdot \alpha_{[i, j]}^{c}
 $$
+
 &#160; &#160; &#160; &#160;最后，这个Q-A短句匹配pair的表示向量$V_{[i,j]}$由$V_{[i,j]}^r$和$V_{[i,j]}^c$拼接表示起来，如下公式所示，$V_{[i,j]}\in R^{2d'}$其中$\oplus$代表连接操作符：
 $$V_{[i, j]}=V_{[i, j]}^{r} \oplus V_{[i, j]}^{c}$$
 
 &#160; &#160; &#160; &#160;使用上面的双向匹配网络，我们把$N\times M$个短句匹配单元中的每一个单元作为输入，都可以输出一个匹配向量，所有现在我们就得到了$N\times M$个$2d'$维的向量，我们把它们拼成一个向量，然后做一个简单的句子级别的self-Attention，得到最终的的表示，最终再经过一个输出层即可，$p$就是最终分类的输出结果（四分类），如下所示：
+
 $$
 \begin{array}{c}{V=\left[V_{[1,1]}, V_{[1,2]}, \ldots, V_{[i, j]}, \ldots, V_{[N, M]}\right]} 
 \\ {U=\tanh \left(W_{h} \cdot V\right)} 
@@ -72,15 +77,6 @@ $$
  2. 不确定的回答，“我不知道”这种回答。比如“Q：这款手机怎么样？ A：不知道，买来送人的”
  3. 不包含感情的客观事实。比如“Q：手机什么颜色？ A：蓝色”
  4. 对比两个或多个产品的问答。比如“Q：这款手机和iPhone6相比怎么样？ A：那决定于你，它们是不可比较的”
- ![标注数据分布情况](https://img-blog.csdnimg.cn/20190403171325418.png)
+下面是数据分布情况：
+![标注数据分布情况](https://img-blog.csdnimg.cn/20190412113331292.png)
  
-
-{% highlight ruby linenos%}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
