@@ -8,7 +8,7 @@ permalink: /collect/
 ---
 
 <ul class="listing">
-{% for collect in site.collect %}
+{% for collect in site.categories.collect %}
 {% if collect.title != "collect Template" %}
 <li class="listing-item"><a href="{{ site.url }}{{ collect.url }}">{{ collect.title }}</a></li>
 {% endif %}

@@ -8,7 +8,7 @@ permalink: /note/
 ---
 
 <ul class="listing">
-{% for note in site.note %}
+{% for note in site.categories.note %}
 {% if note.title != "note Template" %}
 <li class="listing-item"><a href="{{ site.url }}{{ note.url }}">{{ note.title }}</a></li>
 {% endif %}

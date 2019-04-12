@@ -15,6 +15,10 @@ subtitle: "我的秘密世界"
 description: "袁明琛的博客"
 keywords: 博客，论文笔记，资源收藏
 encoding: "utf-8"
+side_bar_repo_limit: 10
+paginate: 10
+
+
 author :
   name : 袁明琛
   email : mcyuan@ir.hit.edu.cn
@@ -40,18 +44,9 @@ production_url : http://yuanmingchen.github.io
 gems: ["jekyll-sitemap"]
 
 collections:
-    paper:
+    wiki:
         output: true
-        permalink: /paper/:path/
-    note:
-        output: true
-        permalink: /note/:path/
-    collect:
-        output: true
-        permalink: /collect/:path/
-    download:
-        output: true
-        permalink: /download/:path/
+        permalink: /wiki/:path/
 
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
