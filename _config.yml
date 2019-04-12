@@ -47,7 +47,7 @@ collections:
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
-JB :
+JB:
   version : 0.3.0
 
   # All links will be namespaced by BASE_PATH if defined.
@@ -151,7 +151,7 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
 # Markdown Settings
-highlighter:rouge
+highlighter: rouge
 paginate: 10
 markdown: kramdown
 kramdown:

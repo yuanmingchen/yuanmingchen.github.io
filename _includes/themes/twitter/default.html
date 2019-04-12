@@ -46,23 +46,10 @@
 <script type="text/javascript" async
    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-	<link rel="stylesheet" href="{{ ASSET_PATH }}/katex/katex.min.css" type="text/css">
-	<script src="{{ ASSET_PATH }}/katex/katex.min.js"></script>
 
   </head>
 
   <body>
-	<script>
-  $("script[type='math/tex']").replaceWith(function() {
-      var tex = $(this).text();
-      return katex.renderToString(tex, {displayMode: false});
-  });
-
-  $("script[type='math/tex; mode=display']").replaceWith(function() {
-      var tex = $(this).html();
-      return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
-  });
-</script>
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
