@@ -15,7 +15,6 @@ tags: []
 - <https://blog.csdn.net/weixin_38772011/article/details/82230335>
 - <https://www.itread01.com/content/1546599088.html>
 
-
 **论文代码**：<https://github.com/wxue004cs/GCAE>  
 **实验数据**：[SemEval2014 Task4](https://github.com/wxue004cs/GCAE)
 ### （1）模型创新与贡献
