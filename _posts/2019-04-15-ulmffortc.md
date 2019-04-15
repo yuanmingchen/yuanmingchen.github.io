@@ -12,11 +12,12 @@ tags: []
 - [作者本人的笔记](https://www.zybuluo.com/sambodhi/note/1150351)  
 - [简书笔记](https://www.jianshu.com/p/7b597742c39c)  
 - [搜狐笔记](http://www.sohu.com/a/233269391_395209)  
-- [csdn笔记](https://blog.csdn.net/u014475479/article/details/81253506)  
-- [知乎笔记](https://zhuanlan.zhihu.com/p/47344283)  
-- [知乎笔记](https://zhuanlan.zhihu.com/p/50902845)  
-- [个人博客](https://panxiaoxie.cn/2019/01/15/论文笔记-预训练语言模型2-ULMFiT/)  
-- [程序袁大本营](http://www.pianshen.com/article/3134102057/)   
+- [csdn笔记-ttv56](https://blog.csdn.net/u014475479/article/details/81253506)  
+- [知乎笔记-yifannn](https://zhuanlan.zhihu.com/p/47344283)  
+- [知乎笔记-精益求精一丝不苟](https://zhuanlan.zhihu.com/p/50902845)  
+- [个人博客-潘小榭](https://panxiaoxie.cn/2019/01/15/论文笔记-预训练语言模型2-ULMFiT/)  
+- [程序员大本营](http://www.pianshen.com/article/3134102057/)    
+- [台部落](https://www.twblogs.net/a/5be1ff2d2b717720b51cbc62) 
 
 **代码实现**：
 - <https://github.com/Socialbird-AILab/BERT-Classification-Tutorial>**【TensorFlow】**  
