@@ -18,5 +18,5 @@ tags: []
 <img src="/images/posts/absa_with_gcn-1.png" align="right">  
 
 
-![收敛时间对比](/images/posts/absa_with_gcn-1.png)  
+
 ### （2）模型介绍
