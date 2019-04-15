@@ -23,13 +23,13 @@ tags: []
 
 ### （2）模型介绍
 作者的模型如下图所示：  
-![模型结构](https://pic3.zhimg.com/80/v2-5d24a57e537b8b1621edaafc80034d72_hd.jpg){: width="100%"}
+![模型结构](/images/posts/absa_with_gcn-2.png){: width="100%"}
 如上图所示，首先使用两个卷积层独立对句子进行卷积操作，然后其中一个输出（图中红色输出）再经过一个Tanh门控单元负责提的情感特征，另外一个输出（图中绿色输出）则负责提取aspect的特征，所以它需要与Aspect的向量进行组合【作者采用的是相加的方式，详细见下面的公式】，然后经过ReLU门控单元，作为Aspect特征。这两个门控单元就是作者设计的门控单元。最后让两个门控单元的输出【情感特征和Aspect特征】进行按位乘的操作，其结果再经过最大池化层处理作为最终该Aspect对应的情感信息，把该向量经过输出层进行分类。具体计算过程如下公式：
 
 $$\begin{aligned} a_{i} &=\operatorname{relu}\left(\mathbf{X}_{i : i+k} * \mathbf{W}_{a}+\mathbf{V}_{a} \boldsymbol{v}_{a}+b_{a}\right) \\ s_{i} &=\tanh \left(\mathbf{X}_{i : i+k} * \mathbf{W}_{s}+b_{s}\right) \\ c_{i} &=s_{i} \times a_{i} \end{aligned}$$  
 
 其中${X}_{i : i+k}$代表第$i$个单词到第$i+k$个单词，$*W+b$代表卷积操作。$v_a$代表Aspect的向量，进行线性变换以后与卷积层输出加起来求和。  
 显然，上述模型是针对ACSA任务的，因为它需要有一个Aspect的词向量作为输入。针对ATSA任务，作者对上述模型做出了一点改进，使得它也可以用于ATSA任务。思路非常简单，既然没有事先确定的Aspect向量，我们就自己去寻找Aspect，但是不应该使用RNN来找Aspect，这回使得模型难以并行计算，与初衷背道而驰。因此，作者又使用了一个卷积层来找出句子中Aspect，模型结构如下图所示：  
-![](https://pic3.zhimg.com/80/v2-65cecda1a2e2585ab4701d61df54628a_hd.jpg)
+![](/images/posts/absa_with_gcn-3.png)
 
 
