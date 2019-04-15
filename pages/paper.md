@@ -11,6 +11,7 @@ permalink: /paper/
 {% for paper in site.categories.paper %}
 {% if paper.title != "paper Template" %}
 	<li class="listing-item"><a href="{{ site.url }}{{ paper.url }}">{{ paper.title }}</a></li>
+	<br/>
 {% endif %}
 {% endfor %}
 </ul>
