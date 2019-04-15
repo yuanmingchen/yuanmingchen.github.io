@@ -16,5 +16,5 @@ tags: []
 最后，事实证明，作者确实提高了运动速度，并且模型准确率比之前的模型还要高一些。 
 与其他模型的收敛时间对比如下如所示：  
 <img src="/images/posts/absa_with_gcn-1.png" align="right">  
-![收敛时间对比](/images/posts/absa_with_gcn-1.png)
+![收敛时间对比](/images/posts/absa_with_gcn-1.png)  
 ### （2）模型介绍
