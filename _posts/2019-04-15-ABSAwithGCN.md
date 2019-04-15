@@ -10,7 +10,12 @@ tags: []
 这篇论文介绍了基于方面的情感分析，提出了一种基于卷积神经网络和门控单元的神经网络，叫做GCAE（Gated Convolutional network with Aspect Embedding），没有使用RNN，大大地提高了模型训练的可并行性，使得训练速度大幅度加快，并且模型的效果有提高，虽然提高不多，但是能在不使用RNN的情况下也算是不错了，毕竟该模型最大的优点是提高训练速度，节省训练时间。
 
 **论文地址**：<https://www.aclweb.org/anthology/P18-1234>  
-**论文笔记**：<https://zhuanlan.zhihu.com/p/50284374>  
+**论文笔记**：
+- <https://zhuanlan.zhihu.com/p/50284374>  
+- <https://blog.csdn.net/weixin_38772011/article/details/82230335>
+- <https://www.itread01.com/content/1546599088.html>
+
+
 **论文代码**：<https://github.com/wxue004cs/GCAE>  
 **实验数据**：[SemEval2014 Task4](https://github.com/wxue004cs/GCAE)
 ### （1）模型创新与贡献
