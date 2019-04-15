@@ -15,8 +15,8 @@ tags: []
 - [csdn笔记](https://blog.csdn.net/u014475479/article/details/81253506)  
 - [知乎笔记](https://zhuanlan.zhihu.com/p/47344283)  
 - [知乎笔记](https://zhuanlan.zhihu.com/p/50902845)  
-- [](https://panxiaoxie.cn/2019/01/15/论文笔记-预训练语言模型2-ULMFiT/)  
-- [](https://blog.csdn.net/u014475479/article/details/81253506)   
+- [个人博客](https://panxiaoxie.cn/2019/01/15/论文笔记-预训练语言模型2-ULMFiT/)  
+- [程序袁大本营](http://www.pianshen.com/article/3134102057/)   
 
 **代码实现**：
 - <https://github.com/Socialbird-AILab/BERT-Classification-Tutorial>**【TensorFlow】**  
