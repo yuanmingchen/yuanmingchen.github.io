@@ -9,14 +9,14 @@ tags: []
 {% include JB/setup %}
 **论文地址**：<https://arxiv.org/pdf/1801.06146v5.pdf>  
 **论文笔记**：
-- (https://www.zybuluo.com/sambodhi/note/1150351)  
-- (https://www.jianshu.com/p/7b597742c39c)  
-- (http://www.sohu.com/a/233269391_395209)  
-- (https://blog.csdn.net/u014475479/article/details/81253506)  
-- (https://zhuanlan.zhihu.com/p/47344283)  
-- (https://zhuanlan.zhihu.com/p/50902845)  
-- (https://blog.csdn.net/u014475479/article/details/81253506)  
-- (https://blog.csdn.net/u014475479/article/details/81253506)   
+- [作者本人的笔记](https://www.zybuluo.com/sambodhi/note/1150351)  
+- [简书笔记](https://www.jianshu.com/p/7b597742c39c)  
+- [搜狐笔记](http://www.sohu.com/a/233269391_395209)  
+- [csdn笔记](https://blog.csdn.net/u014475479/article/details/81253506)  
+- [知乎笔记](https://zhuanlan.zhihu.com/p/47344283)  
+- [知乎笔记](https://zhuanlan.zhihu.com/p/50902845)  
+- [](https://panxiaoxie.cn/2019/01/15/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0-%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B2-ULMFiT/)  
+- [](https://blog.csdn.net/u014475479/article/details/81253506)   
 
 **代码实现**：
 - <https://github.com/Socialbird-AILab/BERT-Classification-Tutorial>**【TensorFlow】**  
