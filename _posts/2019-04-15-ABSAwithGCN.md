@@ -37,5 +37,13 @@ $$\begin{aligned} a_{i} &=\operatorname{relu}\left(\mathbf{X}_{i : i+k} * \mathb
 作者使用的数据集是SemEval2014Task4的数据集，数据分布情况如下：
 ![数据分布情况](/images/posts/absa_with_gcn-4.png){：width:100%}
 
+最终的实验结果如下所示，首先是与其他模型的正确率Acc的对比：
+![数据分布情况](/images/posts/absa_with_gcn-5.png){：width:100%}
 
-最终的实验结果如下所示，首先是与其他
+然后，作者为了展示门控单元确实是有效的，对数据结果做了可视化，如下图所示，可以看到对于不同的aspect，其对应的评价词与其他评价词的权重有明显差异，可以说，作者的这个门控机制起到了类似Attention的作用：
+![数据分布情况](/images/posts/absa_with_gcn-6.png){：width:100%}
+
+另外，作者还通过具体实验证明自己的门控机制比其他常用的门控单元效果要好【如下表所示】，确实可以有效控制模型找到与aspect相关的情感词，忽略不相关的其他情感词。
+![数据分布情况](/images/posts/absa_with_gcn-7.png){：width:100%}
+
+
