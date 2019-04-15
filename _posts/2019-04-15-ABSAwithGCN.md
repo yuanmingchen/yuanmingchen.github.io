@@ -27,4 +27,6 @@ tags: []
 如上图所示，首先使用两个卷积层独立对句子进行卷积操作，然后其中一个输出（图中红色输出）再经过一个Tanh门控单元负责提的情感特征，另外一个输出（图中绿色输出）则负责提取aspect的特征，所以它需要与Aspect的向量进行组合【作者采用的是相加的方式，详细见下面的公式】，然后经过ReLU门控单元，作为Aspect特征。这两个门控单元就是作者设计的门控单元。最后让两个门控单元的输出【情感特征和Aspect特征】进行按位乘的操作，其结果再经过最大池化层处理作为最终该Aspect对应的情感信息，把该向量经过输出层进行分类。具体计算过程如下公式：
 
 $$\begin{aligned} a_{i} &=\operatorname{relu}\left(\mathbf{X}_{i : i+k} * \mathbf{W}_{a}+\mathbf{V}_{a} \boldsymbol{v}_{a}+b_{a}\right) \\ s_{i} &=\tanh \left(\mathbf{X}_{i : i+k} * \mathbf{W}_{s}+b_{s}\right) \\ c_{i} &=s_{i} \times a_{i} \end{aligned}$$  
+
 其中${X}_{i : i+k}$代表第$i$个单词到第$i+k$个单词，$*W+b$代表卷积操作。$v_a$代表Aspect的向量，进行线性变换以后与卷积层输出加起来求和。
+
