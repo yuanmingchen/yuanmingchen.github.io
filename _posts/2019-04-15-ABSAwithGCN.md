@@ -15,7 +15,7 @@ tags: []
 - <https://blog.csdn.net/weixin_38772011/article/details/82230335>
 - <https://www.itread01.com/content/1546599088.html>
 
-**论文代码**：<https://github.com/wxue004cs/GCAE>  
+**论文代码**：<https://github.com/wxue004cs/GCAE>   【pytorch】
 **实验数据**：[SemEval2014 Task4](https://github.com/wxue004cs/GCAE)
 ### （1）模型创新与贡献
 与一般模型不同，作者认为使用RNN和Attention机制都会使得模型的训练过程难以并行运算，这大大影响了训练速度，因此尝试仅仅使用CNN和一些门控单元就在保证模型效果的情况下，提高训练速度，毕竟CNN是可并行运算的。最后，事实证明，作者确实提高了训练速度，并且模型准确率比之前的模型还要高一些。 
