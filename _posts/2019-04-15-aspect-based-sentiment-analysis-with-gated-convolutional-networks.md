@@ -7,4 +7,4 @@ category: paper
 tags: []
 ---
 {% include JB/setup %}
-Aspect Based Sentiment Analysis with Gated Convolutional Networks
+这篇论文
