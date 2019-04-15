@@ -44,8 +44,6 @@ $$\begin{aligned} a_{i} &=\operatorname{relu}\left(\mathbf{X}_{i : i+k} * \mathb
 ![数据分布情况](/images/posts/absa_with_gcn-6.png){：width:100%}
 
 另外，作者还通过具体实验证明自己的门控机制比其他常用的门控单元效果要好【如下表所示】，确实可以有效控制模型找到与aspect相关的情感词，忽略不相关的其他情感词。
-
 ![数据分布情况](/images/posts/absa_with_gcn-7.png){：width:100%}
-
 
 END
