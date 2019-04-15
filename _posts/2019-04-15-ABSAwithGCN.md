@@ -33,4 +33,9 @@ $$\begin{aligned} a_{i} &=\operatorname{relu}\left(\mathbf{X}_{i : i+k} * \mathb
 显然，上述模型是针对ACSA任务的，因为它需要有一个Aspect的词向量作为输入。针对ATSA任务，作者对上述模型做出了一点改进，使得它也可以用于ATSA任务。思路非常简单，既然没有事先确定的Aspect向量，我们就自己去寻找Aspect，但是不应该使用RNN来找Aspect，这回使得模型难以并行计算，与初衷背道而驰。因此，作者又使用了一个与之前类似的卷积层来找出句子中Aspect，模型结构如下图所示：  
 ![](/images/posts/absa_with_gcn-3.png){：width:100%}
 
+### （3）实验结果
+作者使用的数据集是SemEval2014Task4的数据集，数据分布情况如下：
+![数据分布情况](/images/posts/absa_with_gcn-4.png){：width:100%}
 
+
+最终的实验结果如下所示，首先是与其他
