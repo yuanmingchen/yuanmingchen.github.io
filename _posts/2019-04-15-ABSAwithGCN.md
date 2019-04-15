@@ -31,19 +31,19 @@ $$\begin{aligned} a_{i} &=\operatorname{relu}\left(\mathbf{X}_{i : i+k} * \mathb
 
 其中${X}_{i : i+k}$代表第$i$个单词到第$i+k$个单词，$*W+b$代表卷积操作。$v_a$代表Aspect的向量，进行线性变换以后与卷积层输出加起来求和。  
 显然，上述模型是针对ACSA任务的，因为它需要有一个Aspect的词向量作为输入。针对ATSA任务，作者对上述模型做出了一点改进，使得它也可以用于ATSA任务。思路非常简单，既然没有事先确定的Aspect向量，我们就自己去寻找Aspect，但是不应该使用RNN来找Aspect，这回使得模型难以并行计算，与初衷背道而驰。因此，作者又使用了一个与之前类似的卷积层来找出句子中Aspect，模型结构如下图所示：  
-![](/images/posts/absa_with_gcn-3.png){：width:100%}
+![](/images/posts/absa_with_gcn-3.png){: width:100%}
 
 ### （3）实验结果
 作者使用的数据集是SemEval2014Task4的数据集，数据分布情况如下：
-![数据分布情况](/images/posts/absa_with_gcn-4.png){：width:100%}
+![](/images/posts/absa_with_gcn-4.png){: width:100%}
 
 最终的实验结果如下所示，首先是与其他模型的正确率Acc的对比：
-![数据分布情况](/images/posts/absa_with_gcn-5.png){：width:100%}
+![](/images/posts/absa_with_gcn-5.png){: width:100%}
 
 然后，作者为了展示门控单元确实是有效的，对数据结果做了可视化，如下图所示，可以看到对于不同的aspect，其对应的评价词与其他评价词的权重有明显差异，可以说，作者的这个门控机制起到了类似Attention的作用：
-![数据分布情况](/images/posts/absa_with_gcn-6.png){：width:100%}
+![](/images/posts/absa_with_gcn-6.png){: width:100%}
 
 另外，作者还通过具体实验证明自己的门控机制比其他常用的门控单元效果要好【如下表所示】，确实可以有效控制模型找到与aspect相关的情感词，忽略不相关的其他情感词。
-![数据分布情况](/images/posts/absa_with_gcn-7.png){：width:100%}
+![](/images/posts/absa_with_gcn-7.png){: width:100%}
 
 END
