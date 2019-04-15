@@ -3,7 +3,7 @@ layout: post
 title: "Aspect Based Sentiment Analysis with Gated Convolutional Networks"
 description: ""
 slug: paper2
-category: 
+category: paper
 tags: []
 ---
 {% include JB/setup %}
