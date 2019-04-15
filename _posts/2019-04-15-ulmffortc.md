@@ -15,7 +15,7 @@ tags: []
 - [csdn笔记](https://blog.csdn.net/u014475479/article/details/81253506)  
 - [知乎笔记](https://zhuanlan.zhihu.com/p/47344283)  
 - [知乎笔记](https://zhuanlan.zhihu.com/p/50902845)  
-- [](https://panxiaoxie.cn/2019/01/15/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0-%E9%A2%84%E8%AE%AD%E7%BB%83%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B2-ULMFiT/)  
+- [](https://panxiaoxie.cn/2019/01/15/论文笔记-预训练语言模型2-ULMFiT/)  
 - [](https://blog.csdn.net/u014475479/article/details/81253506)   
 
 **代码实现**：
