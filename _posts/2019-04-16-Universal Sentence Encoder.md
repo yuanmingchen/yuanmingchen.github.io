@@ -15,4 +15,4 @@ tags: []
  
 **论文代码**：
 作者将代码用TensorFlow实现并上传到了TF Hub，详见：<https://tfhub.dev/google/universal-sentence-encoder/2>
-- [更多代码实现点这里](https://paperswithcode.com/paper/universal-sentence-encoder)  【不过paperswithcode列出的代码不一定是这篇论文的代码实现】
+- [更多代码实现点这里](https://paperswithcode.com/paper/universal-sentence-encoder)  【不过paperswithcode列出的代码我看好像都不是论文实现】
