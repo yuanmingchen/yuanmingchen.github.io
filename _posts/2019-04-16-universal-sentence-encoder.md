@@ -3,7 +3,7 @@ layout: post
 title: "Universal Sentence Encoder"
 description: ""
 category: 
-slug: 
+slug: "USE"
 tags: []
 ---
 {% include JB/setup %}
