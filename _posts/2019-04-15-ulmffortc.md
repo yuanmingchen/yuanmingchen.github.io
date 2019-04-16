@@ -9,7 +9,7 @@ tags: []
 {% include JB/setup %}
 迁移学习在计算机视觉中已广泛使用，但NLP中的现有方法仍然需要从头开始训练。 本文提出了基于微调的通用语言模型（ULMFiT），可以应用于NLP中的多种任务。 实验表明，ULMFiT方法在六个文本分类任务中取得显著效果。
 
-**官方主页**：<http://nlp.fast.ai/>
+**官方主页**：<http://nlp.fast.ai/>  
 **论文地址**：<https://arxiv.org/pdf/1801.06146v5.pdf>  
 **论文笔记**：
 - [作者本人的笔记——主页介绍翻译版！](https://www.zybuluo.com/sambodhi/note/1150351)  
