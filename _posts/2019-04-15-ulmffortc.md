@@ -12,7 +12,7 @@ tags: []
 **官方主页**：<http://nlp.fast.ai/>
 **论文地址**：<https://arxiv.org/pdf/1801.06146v5.pdf>  
 **论文笔记**：
-- [作者本人的笔记翻译版！](https://www.zybuluo.com/sambodhi/note/1150351)  
+- [作者本人的笔记——主页介绍翻译版！](https://www.zybuluo.com/sambodhi/note/1150351)  
 - [简书笔记](https://www.jianshu.com/p/7b597742c39c)  
 - [搜狐笔记](http://www.sohu.com/a/233269391_395209)  
 - [csdn笔记-ttv56](https://blog.csdn.net/u014475479/article/details/81253506)  
