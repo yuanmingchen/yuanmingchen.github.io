@@ -13,3 +13,6 @@ tags: []
 - [paperweekly-很简略](https://www.paperweekly.site/papers/notes/577)
 - [知乎-木子李](https://zhuanlan.zhihu.com/p/35174235)
 **论文代码**：
+- [](https://github.com/facebookresearch/InferSent)  
+- [](https://github.com/facebookresearch/SentEval)  
+- [](https://github.com/korymath/jann)  
