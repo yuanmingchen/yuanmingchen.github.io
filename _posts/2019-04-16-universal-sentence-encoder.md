@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Universal Sentence Encoder"
-description: ""
+description: "Universal Sentence Encoder论文笔记"
 category: 
 slug: "USE"
 tags: []
