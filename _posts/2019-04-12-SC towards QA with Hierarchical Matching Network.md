@@ -47,6 +47,13 @@ $$
 
 其中$H_{Q_i}\in R^{d'\times N_i},H_{A_j}\in R^{d'\times M_j}$，所以$D_{[i,j]}\in R^{N_i\times M_j},W_r\in R^{d'\times M_j},w_r \in R^{d'}$，所以$U_{[i,j]}^r\in R^{d'\times N_i},\alpha_{[i, j]}^{r} \in \mathbb{R}^{N_{i}}，V_{[i,j]}^r\in R^{d'}$。
 
+实际上：
+$$
+
+$$
+
+
+
 &#160; &#160; &#160; &#160;而第二种显然就是Question-to-Answer Attention，也就是使用问题句子对回答句子进行Attention。使用问题句子的表示$H_{Q_i}$对答案句子$H_{A_j}$的每个时刻进行Attention，把$D_{[i,j]}$的每一列经过神经网络处理成权重（上角标c代表column），同理我们最后可以得到答案句子的新表示向量$V_{[i,j]}^c \in R^{d'}$，计算公式如下：
 
 $$
