@@ -49,7 +49,21 @@ $$
 
 实际上我们有：
 $$
+D_{[i,j]} = \left[
+ \begin{matrix}
+   h_{i,1}h_{j,1} & h_{i,1}h_{j,2} & h_{i,1}h_{j,3} & \cdots & h_{i,1}h_{j,M_j}\\
+   h_{i,2}h_{j,1} & h_{i,2}h_{j,2} & h_{i,2}h_{j,3} & \cdots & h_{i,2}h_{j,M_j}\\
+   h_{i,3}h_{j,1} & h_{i,3}h_{j,2} & h_{i,3}h_{j,3} & \cdots & h_{i,3}h_{j,M_j}\\
+   \cdots & \cdots &\cdots &\cdots &\cdots &\\
+   h_{i,N_i}h_{j,1} & h_{i,N_i}h_{j,2} & h_{i,N_i}h_{j,3} & \cdots & h_{i,N_i}h_{j,M_j}
+  \end{matrix} 
+\right] = \left[
+ \begin{matrix}
+ 
+\end{matrix} 
 
+\\D_{[i,j]}^{\top} = \left [h_{i, 1}H_{A_{j}}, h_{i, 2}H_{A_{j}}, \ldots, h_{i, n}H_{A_{j}}, \ldots, h_{i, N_{i}}H_{A_{j}}\right] 
+\\D_{[i,j]}= \left [H_{Q_{i}}^{\top}h_{j, 1}, H_{Q_{i}}^{\top}h_{j, 2}, \ldots, H_{Q_{i}}^{\top}h_{j, m}, \ldots, H_{Q_{i}}^{\top}h_{j, M_{j}}\right]
 $$
 
 
