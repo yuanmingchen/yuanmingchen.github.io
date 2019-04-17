@@ -31,3 +31,8 @@ RNN处理句子的过程实际上就类似于上述切片过程的逆过程，�
 
 ![数据情况](/images/posts/SRNN-2.png){: width="100%"}
 
+实验结果如下：
+
+![实验结果](/images/posts/SRNN-3.png){: width="100%"}
+
+
