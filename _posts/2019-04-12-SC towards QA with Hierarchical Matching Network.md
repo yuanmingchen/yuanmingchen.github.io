@@ -57,13 +57,16 @@ D_{[i,j]} = \left[
    \cdots & \cdots &\cdots &\cdots &\cdots &\\
    h_{i,N_i}h_{j,1} & h_{i,N_i}h_{j,2} & h_{i,N_i}h_{j,3} & \cdots & h_{i,N_i}h_{j,M_j}
   \end{matrix} 
-\right] = \left[
+\right] \\
+D_{[i,j]} = \left[
  \begin{matrix}
- 
-\end{matrix} 
-
-\\D_{[i,j]}^{\top} = \left [h_{i, 1}H_{A_{j}}, h_{i, 2}H_{A_{j}}, \ldots, h_{i, n}H_{A_{j}}, \ldots, h_{i, N_{i}}H_{A_{j}}\right] 
-\\D_{[i,j]}= \left [H_{Q_{i}}^{\top}h_{j, 1}, H_{Q_{i}}^{\top}h_{j, 2}, \ldots, H_{Q_{i}}^{\top}h_{j, m}, \ldots, H_{Q_{i}}^{\top}h_{j, M_{j}}\right]
+ h_{i, 1}H_{A_{j}}\\ h_{i, 2}H_{A_{j}}\\ h_{i, 3}H_{A_{j}}\\ \ldots\\ h_{i, N_{i}}H_{A_{j}}
+ \end{matrix} 
+\right]= \left[
+ \begin{matrix}
+ H_{Q_{i}}^{\top}h_{j, 1}, H_{Q_{i}}^{\top}h_{j, 2}, H_{Q_{i}}^{\top}h_{j, 3}, \ldots, H_{Q_{i}}^{\top}h_{j, M_{j}}
+ \end{matrix} 
+\right]
 $$
 
 
