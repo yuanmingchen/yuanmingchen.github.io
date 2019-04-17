@@ -47,7 +47,7 @@ $$
 
 其中$H_{Q_i}\in R^{d'\times N_i},H_{A_j}\in R^{d'\times M_j}$，所以$D_{[i,j]}\in R^{N_i\times M_j},W_r\in R^{d'\times M_j},w_r \in R^{d'}$，所以$U_{[i,j]}^r\in R^{d'\times N_i},\alpha_{[i, j]}^{r} \in \mathbb{R}^{N_{i}}，V_{[i,j]}^r\in R^{d'}$。
 
-实际上：
+实际上我们有：
 $$
 
 $$
