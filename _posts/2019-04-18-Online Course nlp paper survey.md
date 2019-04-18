@@ -43,6 +43,6 @@ SPOC论坛的评论以及评论时间，学习者的最终成绩
 ### 5、总结
 #### （1）关键词
 ```
-e-Learning,  mooc,  spoc, online course, online study,
+e-Learning,  mooc,  spoc, online course, online study, online learning ，
 ```
 
