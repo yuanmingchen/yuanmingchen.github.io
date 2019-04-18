@@ -29,10 +29,10 @@ RNN处理句子的过程实际上就类似于上述切片过程的逆过程，�
 #### （3）实验和结果
 实验采用的数据是yelp数据和Amazon数据，详细情况如下：  
 
-![数据情况](/images/posts/SRNN-2.png){: width="100%"}
+![数据情况](res//images/posts/SRNN-2.png){: width="100%"}
 
 实验结果如下：  
 
-![实验结果](/images/posts/SRNN-3.png){: width="100%"}
+![实验结果](res//images/posts/SRNN-3.png){: width="100%"}
 
 
