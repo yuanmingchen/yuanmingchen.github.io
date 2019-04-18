@@ -37,8 +37,9 @@ SPOC论坛的评论以及评论时间，学习者的最终成绩
 #### （3）总结与分析
 与第一篇论文不同，这一篇论文针对的仅仅是已完成课程的学习者，主要是从情感方面来分析，分析情感变化趋势以及成绩与情感的关系。该论文使用的方法非常简单，仅仅用了情感词典，唯一的可圈可点之处就在于并非仅仅考虑积极和消极情感，还考虑了一种困惑情感，建立了一个困惑情感词典。但是其实从实验结果来看的话，消极情绪与困惑情绪的变化具有极高的相似性，单独拿出困惑情绪分析是否具有重要意义有待研究。
 论文的方法极其简单，花了大量的精力和篇幅做了很多分析结果的研究，更侧重分析学生的行为心理，计算机方面学术性很弱。
-### 3、
+### 3、An Emotion Oriented Topic Modeling Approach to Discover What Students are Concerned about in Course Forums
 
+### 4、Unfolding Sentimental and Behavioral Tendencies of Learners’ Concerned Topics From Course Reviews in a MOOC
 ### 5、总结
 #### （1）关键词
 ```
