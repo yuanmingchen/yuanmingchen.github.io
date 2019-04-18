@@ -10,8 +10,7 @@ tags: []
 针对在线教育领域的几篇论文的调用总结。
 
 ### 1、面向MOOC课程评论的学习者话题挖掘研究
-**论文地址**：<a href="/res/doc/onlEduSur-1
-.pdf" target="_blank">面向MOOC课程评论的学习者话题挖掘研究
+**论文地址**：<a href="/res/doc/onlEduSur-1.pdf" target="_blank">面向MOOC课程评论的学习者话题挖掘研究
 </a>
 #### （1）内容概括
 这篇论文主要研究MOOC课程的评论的话题挖掘，具体分为以下三个方面的研究：
