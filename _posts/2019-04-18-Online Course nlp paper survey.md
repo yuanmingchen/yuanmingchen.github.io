@@ -62,6 +62,6 @@ SPOC课程的评论及评论时间，用户的成绩。评论数量为10870条�
 #### （1）关键词
 ```
 e-Learning,  mooc,  spoc, online course, online study, online learning,
- course forum, Course reviews,online course, online education community,
+course forum, Course reviews,online course, online education community,
 ```
 
