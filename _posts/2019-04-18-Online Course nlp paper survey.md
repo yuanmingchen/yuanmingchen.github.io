@@ -49,12 +49,12 @@ SPOC论坛的评论以及评论时间，学习者的最终成绩
 SPOC课程的评论及评论时间，用户的成绩。评论数量为10870条，参与评论的人数为752人。
 
 ### （3）总结与概括
-作者从始至终所采用的的也就是用概率统计学方法统计出的情绪话题概率，使用了
+作者从始至终所采用的的也就是用概率统计学方法统计出的情绪话题概率，使用了第2篇论文中的情绪词典。这一篇论文更像把前两篇论文的内容结合在一起研究，最终结果看上去还是不错的，对于不同的话题有不同的情感。
 
 ### 4、Unfolding Sentimental and Behavioral Tendencies of Learners’ Concerned Topics From Course Reviews in a MOOC
 ### 5、总结
 #### （1）关键词
 ```
-e-Learning,  mooc,  spoc, online course, online study, online learning, course forum, 
+e-Learning,  mooc,  spoc, online course, online study, online learning, course forum, Course reviews,
 ```
 
