@@ -42,5 +42,5 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 **论文介绍**：
 
 ### 4、Predicting MOOC Dropout over Weeks Using Machine Learning Methods
-**论文地址**：<https://www.aclweb.org/anthology/P14-1141> 【EMNLP 2014】  
+**论文地址**：<https://www.aclweb.org/anthology/W14-4111> 【EMNLP 2014】  
 **论文介绍**：
