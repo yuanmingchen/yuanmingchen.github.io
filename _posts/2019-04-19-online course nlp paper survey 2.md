@@ -15,7 +15,7 @@ tags: []
 **任务简介**：
 该论文的任务是以学生看视频时的点击行为序列为基础，进行一系列的结果分析。
 
-作者使用的交互行为有：Play (Pl), Pause (Pa), SeekFw(Sf), SeekBw (Sb), ScrollFw (SSf), ScrollBw(SSb), RatechangeFast (Rf), RatechangeSlow(Rs).
+作者使用的交互行为有：Play (Pl), Pause (Pa), SeekFw(Sf), SeekBw (Sb), ScrollFw (SSf), ScrollBw(SSb), RatechangeFast (Rf), RatechangeSlow(Rs).  
 基于上述点击行为，作者将不同的点击行为序列定义为不同的行为：
 ```
 - Rewatch: PlPaSbPl, PlSbPaPl, PaSbPlSb, SbSbPaPl, SbPaPlPa, PaPlSbPa
