@@ -41,6 +41,6 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 **论文地址**：<https://www.aclweb.org/anthology/P14-1141>  【ACL 2014】  
 **论文介绍**：
 
-### 3、Predicting Instructor’s Intervention in MOOC forums
-**论文地址**：<https://www.aclweb.org/anthology/P14-1141> 【ACL 2014】  
+### 4、Predicting MOOC Dropout over Weeks Using Machine Learning Methods
+**论文地址**：<https://www.aclweb.org/anthology/P14-1141> 【EMNLP 2014】  
 **论文介绍**：
