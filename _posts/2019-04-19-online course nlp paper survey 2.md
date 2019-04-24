@@ -11,7 +11,7 @@ tags: []
 
 ### 1、ACL相关论文
 #### （1）Your click decides your fate: Inferring Information Processing and Attrition Behavior from MOOC Video Clickstream Interactions
-**论文地址**：<https://www.aclweb.org/anthology/W14-4102>  
+**论文地址**：<https://www.aclweb.org/anthology/W14-4102>  【EMNLP 2014】
 **任务简介**：
 该论文的任务是以学生看视频时的点击行为序列为基础，进行一系列的结果分析。
 
