@@ -32,22 +32,29 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 - 根据学生的点击序列预测学生对特定课程的参与时间
 - 对于既定点击序列，预测下一个序列是什么可以导致学习不同的参与度
 - 通过点击序列交互行为来预测学生看不完这个视频的概率【不能完成当前这一个视频的概率】
-- 通过点击序列交互行为来预测学生不能完成整个课程的概率【不能完成整个课程的概率】，不过这个用的是所有课程的交互情况，独立考虑各个课程的点击序列  
-### 2、Identifying Student Leaders from MOOC Discussion Forums through Language Influence 
+- 通过点击序列交互行为来预测学生不能完成整个课程的概率【不能完成整个课程的概率】，不过这个用的是所有课程的交互情况，独立考虑各个课程的点击序列   
+### 2、Identifying Student Leaders from MOOC Discussion Forums through Language Influence   
 **论文地址**：<https://www.aclweb.org/anthology/W14-4103>  【EMNLP 2014】  
 **论文介绍**：
 
 ### 3、Predicting Instructor’s Intervention in MOOC forums
-**论文地址**：<https://www.aclweb.org/anthology/P14-1141>  【ACL 2014】  
+**论文地址**：<https://www.aclweb.org/anthology/P14-1141>  【ACL 2014】   
 **论文介绍**：
 
-### 4、Predicting MOOC Dropout over Weeks Using Machine Learning Methods
-**论文地址**：<https://www.aclweb.org/anthology/W14-4111> 【EMNLP 2014】  
+### 4、Predicting MOOC Dropout over Weeks Using Machine Learning Methods  
+**论文地址**：<https://www.aclweb.org/anthology/W14-4111> 【EMNLP 2014】   
 **论文介绍**：
 
-### 5、Point-of-View Mining and Cognitive Presence in MOOCs:A (Computational) Linguistics Perspective
-**论文地址**：<https://www.aclweb.org/anthology/W14-4105>  【EMNLP 2014】
+### 5、Point-of-View Mining and Cognitive Presence in MOOCs:A (Computational) Linguistics Perspective  
+**论文地址**：<https://www.aclweb.org/anthology/W14-4105>  【EMNLP 2014】  
 **论文介绍**：
 
 ### 6、A Process for Predicting MOOC Attrition
-**论文地址**：<https://www.aclweb.org/anthology/W14-4109>  【EMNLP 2014】
+**论文地址**：<https://www.aclweb.org/anthology/W14-4109>  【EMNLP 2014】  
+**论文介绍**：
+
+### 7、A Process for Predicting MOOC Attrition
+**论文地址**：<https://www.aclweb.org/anthology/W14-4109>  【EMNLP 2014】  
+**论文介绍**：
+
+
