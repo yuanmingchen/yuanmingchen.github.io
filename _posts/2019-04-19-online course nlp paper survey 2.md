@@ -64,12 +64,13 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 **论文地址**：<https://www.aclweb.org/anthology/I13-1001>
 **论文介绍**：
 
-### 8、Predicting Attrition Along the Way: The UIUC Model
+### 10、Predicting Attrition Along the Way: The UIUC Model
 **论文地址**：<https://www.aclweb.org/anthology/W14-4110>
 **论文介绍**：
 
-### 8、Towards Identifying the Resolvability of Threads in MOOCs
-**论文地址**：<https://aclweb.org/anthology/W14-4104>
+### 11、Countering Position Bias in Instructor Interventions
+in MOOC Discussion Forums
+**论文地址**：<https://www.aclweb.org/anthology/W18-3720v2>
 **论文介绍**：
 
 ### 8、Towards Identifying the Resolvability of Threads in MOOCs
