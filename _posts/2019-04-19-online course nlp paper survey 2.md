@@ -35,3 +35,4 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 - 通过点击序列交互行为来预测学生不能完成整个课程的概率【不能完成整个课程的概率】，不过这个用的是所有课程的交互情况，独立考虑各个课程的点击序列  
 ### 2、Identifying Student Leaders from MOOC Discussion Forums through Language Influence 
 **论文地址**：<https://www.aclweb.org/anthology/W14-4103>  【EMNLP 2014】  
+**论文介绍**：
