@@ -44,3 +44,10 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 ### 4、Predicting MOOC Dropout over Weeks Using Machine Learning Methods
 **论文地址**：<https://www.aclweb.org/anthology/W14-4111> 【EMNLP 2014】  
 **论文介绍**：
+
+### 5、Point-of-View Mining and Cognitive Presence in MOOCs:A (Computational) Linguistics Perspective
+**论文地址**：<https://www.aclweb.org/anthology/W14-4105>  【EMNLP 2014】
+**论文介绍**：
+
+### 6、A Process for Predicting MOOC Attrition
+**论文地址**：<https://www.aclweb.org/anthology/W14-4109>  【EMNLP 2014】
