@@ -36,6 +36,8 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 ### 2、Identifying Student Leaders from MOOC Discussion Forums through Language Influence   
 **论文地址**：<https://www.aclweb.org/anthology/W14-4103>  【EMNLP 2014】  
 **论文介绍**：作者的任务是根据语言影响力从mooc论坛中找出学生领导者。从mooc论坛中大规模地识别和理解学生领导者的动机是使得在线学习环境更具有参与性、合作性和指导性的关键。在这篇论文中，我们建议仅根据文本特征来识别学生领袖，或者通过分析他们如何影响其他学生的语言来识别他们。我们提出了一种基于人们对感兴趣的语义话题的词汇选择来衡量语言迁就度的改进方法，并证明了学生领袖确实起到了协调其他学生语言的作用。
+一句话说就是，通过衡量大家说话时选用的单词来识别出学生中的领导者。
+原理就是人说话时，使用的单词往往会迁就和他们一起说话的人。这种现象叫做语言协调。我个人的理解就是，大家在讨论某个问题时，加入先有人用苹果举了一个例子，那么其他人在讨论的过程中，就更倾向于也用苹果来举例子，而不是用菠萝、香蕉之类的，虽然究竟用什么水果举例没有影响。
 
 ### 3、Predicting Instructor’s Intervention in MOOC forums
 **论文地址**：<https://www.aclweb.org/anthology/P14-1141>  【ACL 2014】   
