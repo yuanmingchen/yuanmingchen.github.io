@@ -69,7 +69,8 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 **论文介绍**：
 
 ### 11、Countering Position Bias in Instructor Interventions in MOOC Discussion Forums
-**论文地址**：<https://www.aclweb.org/anthology/W18-3720v2>
+**论文地址**：<https://www.aclweb.org/anthology/W18-3720v2> 【
+Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications  2018】
 **论文介绍**：
 
 
