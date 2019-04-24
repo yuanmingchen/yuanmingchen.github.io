@@ -28,7 +28,7 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 - Playrate Transition: RfRfRsRs, RfRfRfRs,RfRsRsRs, RsRsRsRf, RsRsRfRf, RfRfRfRf(a wave of ratechange clicks)
 ```
 然后使用模糊字符串匹配算法对比实际的点击序列与上述序列，匹配程度越高则该行为的权重就越大。
-最后基于以上信息，使用L2正则和线性回归，作者分析以下几个问题：
+最后基于以上信息，使用L2正则和线性回归，作者分析以下几个问题：  
 - 根据学生的点击序列预测学生对特定课程的参与时间
 - 对于既定点击序列，预测下一个序列是什么可以导致学习不同的参与度
 - 通过点击序列交互行为来预测学生看不完这个视频的概率【不能完成当前这一个视频的概率】
