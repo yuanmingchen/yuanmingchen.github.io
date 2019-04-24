@@ -54,7 +54,7 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 **论文介绍**：
 
 ### 7、Understanding MOOC Discussion Forums using Seeded LDA
-**论文地址**：<https://www.aclweb.org/anthology/W14-1804>  【EMNLP 2014】  
+**论文地址**：<https://www.aclweb.org/anthology/W14-1804>  【Proceedings of the Ninth Workshop on Innovative Use of NLP for Building Educational Applications 2014】  
 **论文介绍**：
 
 ### 8、Towards Identifying the Resolvability of Threads in MOOCs
