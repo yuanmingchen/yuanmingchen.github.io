@@ -35,7 +35,7 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 - 通过点击序列交互行为来预测学生不能完成整个课程的概率【不能完成整个课程的概率】，不过这个用的是所有课程的交互情况，独立考虑各个课程的点击序列   
 ### 2、Identifying Student Leaders from MOOC Discussion Forums through Language Influence   
 **论文地址**：<https://www.aclweb.org/anthology/W14-4103>  【EMNLP 2014】  
-**论文介绍**：
+**论文介绍**：作者的任务是根据语言影响力从mooc论坛中找出学生领导者。从mooc论坛中大规模地识别和理解学生领导者的动机提供了使在线学习环境具有参与性、合作性和指导性的关键。在这篇论文中，我们建议仅根据文本特征来识别学生领袖，或者通过分析他们如何影响其他学生的语言来识别他们。我们提出了一种基于人们对感兴趣的语义话题的词汇选择来衡量语言顺应性的改进方法，并证明了学生领袖确实协调了其他学生的语言
 
 ### 3、Predicting Instructor’s Intervention in MOOC forums
 **论文地址**：<https://www.aclweb.org/anthology/P14-1141>  【ACL 2014】   
