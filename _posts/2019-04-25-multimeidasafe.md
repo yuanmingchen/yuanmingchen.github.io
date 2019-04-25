@@ -4,7 +4,7 @@ title: "MultiMeidaSafe"
 description: "多媒体安全课程"
 category: lesson
 tags: []
-slug: "MultiMeidaSafe"
+slug: "MuMeSafe"
 ---
 {% include JB/setup %}
 ### 1、信息安全的两种方式：
@@ -81,7 +81,7 @@ JPEG图像，把原始图像分成一个个8x8的像素块，正向DCI变换，�
 
 #### 3.3 隐写分析技术  
 **针对LSB的隐写分析**
-（1）$\chi ^2分布统计$
+**（1）$\chi ^2分布统计$**
 统计所有像素值的个数进行分析。
 LSB会使一对数值彼此变换，比如40与41嵌入信息以后只能不变或者互相转换，这就会是的两者的个数彼此接近，类似一种中和效果。这种现象符合$\chi ^2$分布。
 **特点**：
