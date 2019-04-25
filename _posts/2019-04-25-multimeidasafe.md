@@ -47,7 +47,7 @@ LSB隐写的嵌入容量与嵌入率：
 大小为MXN的8bit灰度图像：
 嵌入容量：
 MxN bit
-嵌入率：
+$$\mbox{嵌入率} = \frac{\mbox{嵌入的数据位的个数}}{\mbox{总的数据位个数}}$$：
 $$\frac {M\times N}{M\times N\times 8} = \frac{1}{8}$$
 PSNR【峰值信噪比】衡量图片质量，对图片的影响大小，这个指标越大，代表对图片的影响越小
 $$\text{PSNR} = -10log\{\frac {1}{255^2MN}\sum_{1}^{M}\sum_{1}^{N} [d(m,n)]^2\}$$
