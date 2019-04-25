@@ -49,7 +49,7 @@ LSB隐写的嵌入容量与嵌入率：
 MxN bit
 嵌入率：
 
-$$\mbox{嵌入率} = \frac{\mbox{嵌入的数据位的个数}}{\mbox{总的数据位个数}}$$
+$$\text{嵌入率} = \frac{嵌入的数据位的个数}{\mbox{总的数据位个数}}$$
 
 $$\frac {M\times N}{M\times N\times 8} = \frac{1}{8}$$
 
