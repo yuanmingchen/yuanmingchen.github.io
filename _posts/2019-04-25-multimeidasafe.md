@@ -7,6 +7,8 @@ tags: []
 slug: "MuMeSafe"
 ---
 {% include JB/setup %}
+多媒体安全课堂笔记。
+
 ### 1、信息安全的两种方式：
 - 信息加密：
     - 图像加密
