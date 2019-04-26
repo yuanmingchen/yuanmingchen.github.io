@@ -43,7 +43,7 @@ Ratechange fast clicks while playing or pausing video lecture content, indicatin
 作者的方法如下：
 首先基于语义和语法相似度，通过单词的在句子中相对其他单词出现的统计来把句子构建为词向量。
 
-作者采用以下公式来衡量语言协调度，其中a、b代表两个用户，这个公式表示a向b的语言协调度，$w_k$表示第k个聚类中的一个词$E_{u_{a} \rightarrow u_{b}}^{w_{k}}$表示b使用了$w_k$这个单词，a对b的回复中也使用了$w_k$这个单词，即a对b出现了语言协调。$E_{u_{b}}^{w_{k}}$
+作者采用以下公式来衡量语言协调度，其中a、b代表两个用户，这个公式表示a向b的语言协调度，$w_k$表示第k个聚类中的一个词$E_{u_{a} \rightarrow u_{b}}^{w_{k}}$表示b使用了$w_k$这个单词，a对b的回复中也使用了$w_k$这个单词，即a对b出现了语言协调。$E_{u_{b}}^{w_{k}}$表示所有使用了$w_k$这个单词的事件。注意，以上只统计所有包含k类中单词的评论。
 
 $$C^{w_{k}}(a \rightarrow b)=P\left(E_{u_{a} \rightarrow u_{b}}^{w_{k}} | E_{u_{b}}^{w_{k}}\right)-P\left(E_{u_{a} \rightarrow u_{b}}^{w_{k}}\right)$$
 
