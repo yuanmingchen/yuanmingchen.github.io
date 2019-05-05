@@ -54,6 +54,7 @@ $P_{v_a}$
 **论文地址**：<https://www.aclweb.org/anthology/P14-1141>  【ACL 2014】   
 **论文介绍**：
 目的是通过论坛评论来预测教师是否会回复当前这个话题。
+使用的是线性回归的方法
 
 ### （4）Predicting MOOC Dropout over Weeks Using Machine Learning Methods  
 **论文地址**：<https://www.aclweb.org/anthology/W14-4111> 【EMNLP 2014】   
