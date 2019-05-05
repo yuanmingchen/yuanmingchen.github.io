@@ -54,7 +54,7 @@ $P_{v_a}$
 **论文地址**：<https://www.aclweb.org/anthology/P14-1141>  【ACL 2014】   
 **论文介绍**：
 目的是通过论坛评论来预测教师是否会回复当前这个话题。
-使用的是线性回归的方法
+使用的是线性回归的方法，使用的特征包括两方面，一方面是当前这个话题的发起者、时间、地点、题目等等总体信息，另一方面是该话题下所有帖子的一个综合信息，例如所有评论的点赞数、所有评论发布时间的均值和方差、某些特定词出现的总数等等。
 
 ### （4）Predicting MOOC Dropout over Weeks Using Machine Learning Methods  
 **论文地址**：<https://www.aclweb.org/anthology/W14-4111> 【EMNLP 2014】   
