@@ -94,4 +94,5 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 **论文介绍**：
 
 ### 2、CMU相关论文
-#### 
+#### （1）Sentiment Analysis in MOOC Discussion Forums:What does it tell us?
+**论文地址**：<>
