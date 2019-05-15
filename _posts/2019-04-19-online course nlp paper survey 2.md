@@ -95,4 +95,4 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 
 ### 2、CMU相关论文
 #### （1）Sentiment Analysis in MOOC Discussion Forums:What does it tell us?
-**论文地址**：<>
+**论文地址**：<https://www.cs.cmu.edu/~mwen/papers/edm2014-camera-ready.pdf>
