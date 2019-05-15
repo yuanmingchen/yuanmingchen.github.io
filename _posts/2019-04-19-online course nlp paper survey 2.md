@@ -116,7 +116,7 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 **实验结果**：
 
 #### （4）Towards triggering higher-order thinking behaviors in MOOCs
-**论文地址**：<http://delivery.acm.org/10.1145/2890000/2883964/p398-wang.pdf?ip=219.217.246.67&id=2883964&acc=CHORUS&key=BF85BBA5741FDC6E%2E5C4511229FC427D6%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1557924942_dd2ca30d84cbfedeca5e5963ca5e36de>
+**论文地址**：<http://delivery.acm.org/10.1145/2890000/2883964/p398-wang.pdf>
 **论文介绍**：
 **研究方法**：
 **实验数据**：
