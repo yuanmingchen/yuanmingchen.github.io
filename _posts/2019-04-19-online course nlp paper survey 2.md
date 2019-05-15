@@ -123,7 +123,7 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 **实验结果**：
 
 #### （5）Towards Identifying the Resolvability of Threads in MOOCs
-**论文地址**：<https://www.cs.cmu.edu/~mwen/papers/edm2014-camera-ready.pdf>
+**论文地址**：<https://www.aclweb.org/anthology/W14-4104>
 **论文介绍**：
 **研究方法**：
 **实验数据**：
