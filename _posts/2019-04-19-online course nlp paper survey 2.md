@@ -102,7 +102,7 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 **实验结果**：
 
 #### （2）Exploring the Effect of Student Confusion in Massive Open Online Courses
-**论文地址**：<https://www.cs.cmu.edu/~mwen/papers/edm2014-camera-ready.pdf>
+**论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/ls15.pdf>
 **论文介绍**：
 **研究方法**：
 **实验数据**：
