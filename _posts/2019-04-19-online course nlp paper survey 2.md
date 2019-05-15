@@ -96,37 +96,56 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 ### 2、CMU相关论文
 #### （1）Sentiment Analysis in MOOC Discussion Forums:What does it tell us?
 **论文地址**：<https://www.cs.cmu.edu/~mwen/papers/edm2014-camera-ready.pdf>
+
 **论文介绍**：
+
 **研究方法**：
+
 **实验数据**：
+
 **实验结果**：
 
 #### （2）Exploring the Effect of Student Confusion in Massive Open Online Courses
 **论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/ls15.pdf>
+
 **论文介绍**：
+
 **研究方法**：
+
 **实验数据**：
+
 **实验结果**：
 
 #### （3）Linguistic Reflections of Student Engagement in Massive Open Online Courses
 **论文地址**：<http://www.cs.cmu.edu/~mwen/papers/icwsm2014-camera-ready.pdf>
+
 **论文介绍**：
+
 **研究方法**：
+
 **实验数据**：
+
 **实验结果**：
 
 #### （4）Towards triggering higher-order thinking behaviors in MOOCs
 **论文地址**：<http://delivery.acm.org/10.1145/2890000/2883964/p398-wang.pdf>
 **论文介绍**：
+
 **研究方法**：
+
 **实验数据**：
+
 **实验结果**：
 
 #### （5）Towards Identifying the Resolvability of Threads in MOOCs
 **论文地址**：<https://www.aclweb.org/anthology/W14-4104>
+
 **论文介绍**：
+
 **研究方法**：
+
 **实验数据**：
+
 **实验结果**：
 
 
