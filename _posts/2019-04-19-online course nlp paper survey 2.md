@@ -121,7 +121,7 @@ $$MA_t=\frac{1}{k}(x_{t-k+1}+x_{t-k+2}+\cdots +x_t)$$
 
 $$PMI_{w, {TopicKeyword}}=\frac{P(w, { TopicKeyword })}{P(w) P({TopicKeyword})}$$
 
-$P(w)$表示情感词$w$在评论中出现的概率，P(TopicKeyword)
+$P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当前话题的话题词在回复中出现的概率，一条回复出现一个关键词和多个关键词不做区分，都认为与当前话题有关。$P(w,{TopicKeyword })$表示情感词和话题词共同出现在同一回复中的概率。
 
 
 
