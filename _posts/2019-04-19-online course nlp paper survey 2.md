@@ -120,7 +120,7 @@ $$MA_t=\frac{1}{k}(x_{t-k+1}+x_{t-k+2}+\cdots +x_t)$$
 另外，作者还统计了每门课每个主题的关键情感词，
 2、
 
-$$P M I_{w, \text {TopicKeyword}}=\frac{P(w, \text { TopicKeyword })}{P(w) P(\text {TopicKeyword})}$$
+$$PMI_{w, \text {TopicKeyword}}=\frac{P(w, \text { TopicKeyword })}{P(w) P({TopicKeyword})}$$
 
 **实验结果**：
 
