@@ -103,7 +103,7 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 **实验数据**：
 实验数据是三门mooc课程的数据：
 - 1、Accountable Talk: Conversation that works：一门谈话艺术教学课程，简称Teaching课程
-- 2、Fantasy and Science Fiction: the human mind, our modern world：一门文学课程，讲解科幻小说相关的东西
+- 2、Fantasy and Science Fiction: the human mind, our modern world：一门文学课程，简称Fantasy，讲解科幻小说相关的东西
 - 3、 Learn to Program: The Fundamentals：一门Python编程课程
 我们有以上三门课程的所有论坛评论，以及评论的用户信息、发布时间。
 对于第一门课程，还有所有学生的最后一次登录时间信息。
@@ -121,11 +121,16 @@ $$MA_t=\frac{1}{k}(x_{t-k+1}+x_{t-k+2}+\cdots +x_t)$$
 $$PMI_{w, {TopicKeyword}}=\frac{P(w, { TopicKeyword })}{P(w) P({TopicKeyword})}$$
 
 $P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当前话题的话题词在回复中出现的概率，一条回复出现一个关键词和多个关键词不做区分，都认为与当前话题有关。$P(w,{TopicKeyword })$表示情感词和话题词共同出现在同一回复中的概率。通过这种方法，作者找出了每个话题最相关的情感词：  
-![](/res/images/posts/mooc1.png){: width="100%"}
+![](/res/images/posts/mooc2-1.png){: width="100%"}
 
 2、对于用户级别的情感分析，作者主要分析了两方面的内容，第一种是最后活跃周用户发布的评论中的情感，第二种是用户最后活跃周回复过的论坛话题中所蕴含的情感。对于积极和消极情感分别计算评分，比如：用户最后活跃周发布回复的积极情感词数/用户最后活跃周发布回复的所有单词数，即为用户个人发布的积极情感系数，记作Individual Positivity。消极的则记作Individual Negativity，论坛话题影响相应的记作Thread Positivity和Thread Negativity。
 
-**实验结果**：
+作者使用生存模型，预测上述四个因素对下一个星期学生辍学的影响。
+
+**实验结果**：  
+实验结果和想象的并不相同，并非积极情感就一定会降低辍学率，消极情感就一定会提高辍学率，需要针对具体课程具体分析，如Fantasy课程中经常出现的一些消极情感词是在讨论科幻小说的内容【僵尸、灾难等】，这体现处理对课程的参与，反而会降低辍学率。
+![](/res/images/posts/mooc2-2.png){: width="100%"}
+
 
 
 #### （2）Exploring the Effect of Student Confusion in Massive Open Online Courses
