@@ -57,7 +57,8 @@ $P_{v_a}$
 使用的是线性回归的方法，使用的特征包括两方面，一方面是当前这个话题的发起者、时间、地点、题目等等总体信息，另一方面是该话题下所有帖子的一个综合信息，例如所有评论的点赞数、所有评论发布时间的均值和方差、某些特定词出现的总数等等。
 最终结果：
 
-![结果](/res/images/posts/onl_survey2-1.png){: width="100%"}
+![分层神经网络结构](/res/images/posts/post1-1.png){: width="100%"}
+
 
 
 #### （4）Predicting MOOC Dropout over Weeks Using Machine Learning Methods  
@@ -121,7 +122,8 @@ $$MA_t=\frac{1}{k}(x_{t-k+1}+x_{t-k+2}+\cdots +x_t)$$
 
 $$PMI_{w, {TopicKeyword}}=\frac{P(w, { TopicKeyword })}{P(w) P({TopicKeyword})}$$
 
-$P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当前话题的话题词在回复中出现的概率，一条回复出现一个关键词和多个关键词不做区分，都认为与当前话题有关。$P(w,{TopicKeyword })$表示情感词和话题词共同出现在同一回复中的概率。
+$P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当前话题的话题词在回复中出现的概率，一条回复出现一个关键词和多个关键词不做区分，都认为与当前话题有关。$P(w,{TopicKeyword })$表示情感词和话题词共同出现在同一回复中的概率。通过这种方法，作者找出了每个话题最相关的情感词：
+![]
 
 
 
