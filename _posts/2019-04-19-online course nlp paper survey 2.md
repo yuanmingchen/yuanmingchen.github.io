@@ -209,7 +209,15 @@ $P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当
 
 **研究方法**：
 
+人工标注数据，标注参与度1-7
+1、预测学生动机
+
+
 **实验数据**：
+三门Coursera课程数据，和第一篇情感分析的那个用的数据一样：
+- 1、Accountable Talk: Conversation that works：社交谈话教学课程，1146个活跃用户，5107个帖子
+- 2、Fantasy and Science Fiction: the human mind, our modern world：文学课程，771个活跃用户，6520个帖子
+-3、Learn to Program: The Fundamentals：编程课程，3590个活跃用户和24963个帖子。
 
 **实验结果**：
 
