@@ -100,6 +100,11 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 - 1、课程级别的情感分析，即分析每个课程的情感随时间的变化。  
 - 2、用户级别的情感分析，即分析一个用户在论坛中表达的内容中的情感和浏览论坛时看到的内容中的情感对这个用户辍学的影响。  
 
+**论文目标**：
+- 分析论坛情感和辍学之间的关系【课程、用户两个级别的分析】
+- 论坛中不同主题的讨论中蕴含的不同情感，以及不同主题表达情感的用词选择
+- 主题、情感、辍学率等随时间变化的趋势
+
 **实验数据**：
 实验数据是三门mooc课程的数据：
 - 1、Accountable Talk: Conversation that works：一门谈话艺术教学课程，简称Teaching课程
