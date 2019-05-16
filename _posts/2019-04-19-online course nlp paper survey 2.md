@@ -98,9 +98,10 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 **论文地址**：<https://www.cs.cmu.edu/~mwen/papers/edm2014-camera-ready.pdf>
 
 **论文介绍**：本文着重研究mooc论坛中的情感分析，具体内容包括以下两个个方面：
-- 1、  
-
+- 1、课程级别的情感分析，即分析每个课程的情感对时间的变化。  
+- 2、用户级别的情感分析，即分析一个用户在论坛中表达的内容中的情感和浏览论坛时看到的内容中的情感对这个用户辍学的影响。  
 **研究方法**：
+1、对于课程级别的情感分析，作者将论坛内容分为了4个
 
 **实验数据**：
 
