@@ -102,7 +102,12 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 - 2、用户级别的情感分析，即分析一个用户在论坛中表达的内容中的情感和浏览论坛时看到的内容中的情感对这个用户辍学的影响。  
 
 **实验数据**：
-
+实验数据是三门mooc课程的数据：
+- 1、Accountable Talk: Conversation that works：一门谈话艺术教学课程，简称Teaching课程
+- 2、Fantasy and Science Fiction: the human mind, our modern world：一门文学课程，讲解科幻小说相关的东西
+- 3、 Learn to Program: The Fundamentals：一门Python编程课程
+我们有以上三门课程的所有论坛评论，以及评论的用户信息、发布时间。
+对于第一门课程，还有所有学生的登录信息。
 
 
 **研究方法**：
