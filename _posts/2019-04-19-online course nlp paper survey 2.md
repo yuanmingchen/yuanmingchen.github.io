@@ -149,7 +149,7 @@ $P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当
 #### （2）Exploring the Effect of Student Confusion in Massive Open Online Courses
 **论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/ls15.pdf>
 
-**论文介绍**：
+**论文介绍**：主题是mooc论坛中困惑的影响。作者在论文中量化困惑的影响，使用论坛行为和点击流数据设计了一个分类模型来自动识别表达困惑的帖子
 
 **研究方法**：
 
