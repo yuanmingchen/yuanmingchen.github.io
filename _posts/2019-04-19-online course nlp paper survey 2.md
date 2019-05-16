@@ -117,10 +117,15 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 
 $$MA_t=\frac{1}{k}(x_{t-k+1}+x_{t-k+2}+\cdots +x_t)$$
 
-另外，作者还统计了每门课每个主题的关键情感词，
-2、
+另外，作者还统计了每门课每个主题的关键情感词，采用PMI对情感词排序，以此找出与当前话题最相关的情感词：
 
-$$PMI_{w, \text {TopicKeyword}}=\frac{P(w, \text { TopicKeyword })}{P(w) P({TopicKeyword})}$$
+$$PMI_{w, {TopicKeyword}}=\frac{P(w, { TopicKeyword })}{P(w) P({TopicKeyword})}$$
+
+$P(w)$表示情感词$w$在评论中出现的概率，P(TopicKeyword)
+
+
+
+2、
 
 **实验结果**：
 
