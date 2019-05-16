@@ -107,7 +107,7 @@ Proceedings of the 5th Workshop on Natural Language Processing Techniques for Ed
 - 2、Fantasy and Science Fiction: the human mind, our modern world：一门文学课程，讲解科幻小说相关的东西
 - 3、 Learn to Program: The Fundamentals：一门Python编程课程
 我们有以上三门课程的所有论坛评论，以及评论的用户信息、发布时间。
-对于第一门课程，还有所有学生的登录信息。
+对于第一门课程，还有所有学生的最后一次登录信息。
 
 
 **研究方法**：
