@@ -123,9 +123,10 @@ $$PMI_{w, {TopicKeyword}}=\frac{P(w, { TopicKeyword })}{P(w) P({TopicKeyword})}$
 $P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当前话题的话题词在回复中出现的概率，一条回复出现一个关键词和多个关键词不做区分，都认为与当前话题有关。$P(w,{TopicKeyword })$表示情感词和话题词共同出现在同一回复中的概率。通过这种方法，作者找出了每个话题最相关的情感词：  
 ![](/res/images/posts/mooc1.png){: width="100%"}
 
-2、对于用户级别的情感分析，作者主要分析了两方面的内容，第一种是用户发布分评论中的
+2、对于用户级别的情感分析，作者主要分析了两方面的内容，第一种是最后活跃周用户发布的评论中的情感，第二种是用户最后活跃周回复过的论坛话题中所蕴含的情感。对于积极和消极情感分别计算评分，比如：用户最后活跃周发布回复的积极情感词数/用户最后活跃周发布回复的所有单词数，即为用户个人发布的积极情感系数，记作Individual Positivity。消极的则记作Individual Negativity，论坛话题影响相应的记作Thread Positivity和Thread Negativity。
 
 **实验结果**：
+
 
 #### （2）Exploring the Effect of Student Confusion in Massive Open Online Courses
 **论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/ls15.pdf>
