@@ -209,8 +209,13 @@ $P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当
 
 **研究方法**：
 
-1、预测学生动机：
-人工标注数据，标注参与度1-7
+1、预测学生动机：人工标注数据，标注参与度1-7
+使用五种语言特征：
+- 应用词：“apply”, “try”, “utilize”, “employ”, “practice”, “use”, “help”, “exploit” and “implement”
+- 需要词： “hope”, “want”, “need”, “will”, “would”，“like”, “plan”, “aim” and “goal”
+- LIWC-cognitive词，比如 “thinking”, “realized”, “understand”,“insight” and “comprehend”
+- 第一人称词
+- 积极情感词
 
 
 
