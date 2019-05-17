@@ -330,7 +330,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 ![预测实验结果](/res/images/posts/mooc2-4.png){: width="100%"}
 
-####（6）“Turn on, Tune in, Drop out”: Anticipating student dropouts in Massive Open Online Courses
+#### （6）“Turn on, Tune in, Drop out”: Anticipating student dropouts in Massive Open Online Courses
 **论文地址**：<https://pdfs.semanticscholar.org/c134/1b4b24363dc09ba1659c448dcce8442697e6.pdf>
 
 **论文介绍**：
