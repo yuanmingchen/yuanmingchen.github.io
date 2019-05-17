@@ -9,9 +9,9 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : 袁明琛的博客
-tagline: 我的秘密世界
+tagline: 既然来了就不要走了
 title: 袁明琛的博客
-subtitle: "我的秘密世界"
+subtitle: "既然来了就不要走了"
 description: "袁明琛的博客"
 keywords: 博客，论文笔记，资源收藏
 encoding: "utf-8"
