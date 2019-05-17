@@ -376,7 +376,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 
 #### （9）Transfer Learning for Predictive Models in Massive Open Online Courses
-**论文地址**：![Transfer Learning for Predictive Models in Massive Open Online Courses](/res/doc/mooc2-1.pdf)
+**论文地址**：[Transfer Learning for Predictive Models in Massive Open Online Courses](/res/doc/mooc2-1.pdf)
 
 **论文介绍**：
 
