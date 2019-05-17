@@ -326,7 +326,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 预测实验结果：
 
-![预测实验结果](/res/images/posts/mooc2-3.png){: width="100%"}
+![预测实验结果](/res/images/posts/mooc2-4.png){: width="100%"}
 
 
 
