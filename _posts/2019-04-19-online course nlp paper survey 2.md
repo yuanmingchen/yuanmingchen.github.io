@@ -361,7 +361,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 
 #### （8）Towards an Integration of Text and Graph Clustering Methods as a Lens for Studying Social Interaction in MOOCs
-**论文地址**：
+**论文地址**：<https://files.eric.ed.gov/fulltext/EJ1045994.pdf>
 
 **论文介绍**：
 
@@ -376,7 +376,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 
 #### （9）Transfer Learning for Predictive Models in Massive Open Online Courses
-**论文地址**：
+**论文地址**：![Transfer Learning for Predictive Models in Massive Open Online Courses](/res/doc/mooc2-1.pdf)
 
 **论文介绍**：
 
@@ -391,7 +391,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 
 #### （10）Social Factors that Contribute to Attrition in MOOCs
-**论文地址**：
+**论文地址**：<http://www.cs.cmu.edu/~mwen/papers/p197-rose.pdf>
 
 **论文介绍**：
 
@@ -406,7 +406,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 
 #### （11）Identifying Latent Study Habits by Mining Learner Behavior Patterns in Massive Open Online Courses
-**论文地址**：
+**论文地址**：<http://www.cs.cmu.edu/~mwen/papers/cikm14-mwen.pdf>
 
 **论文介绍**：
 
