@@ -331,7 +331,20 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 ![预测实验结果](/res/images/posts/mooc2-4.png){: width="100%"}
 
 ####（6）“Turn on, Tune in, Drop out”: Anticipating student dropouts in Massive Open Online Courses
+**论文地址**：
 
+
+**论文介绍**：
+
+
+**论文数据**：
+
+
+
+**研究方法**：
+
+
+**实验结果**
 #### （7）Shared Task on Prediction of Dropout Over Time in Massively Open Online Courses
 
 #### （8）Towards an Integration of Text and Graph Clustering Methods as a Lens for Studying Social Interaction in MOOCs
