@@ -240,7 +240,7 @@ $P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当
 **实验结果**：
 参与度越高，辍学率越低；个人解释越多，抽象程度越高，辍学率越低。
 #### （4）Towards triggering higher-order thinking behaviors in MOOCs
-**论文地址**：<http://delivery.acm.org/10.1145/2890000/2883964/p398-wang.pdf>
+**论文地址**：<https://dl.acm.org/citation.cfm?id=2883964>
 
 **论文介绍**：
 题目是激发mooc中更高层次的思考行为。目的是研究**什么样的讨论更有助于学习**，探索高阶的思考行为比仅仅集中与课程材料的讨论更加有助于学习。与上一篇中的语言抽象程度有点像。为了研究这种效果是由于相关行为的参与，还是学生个人的执着的性格。作者使用两种方法：
@@ -331,7 +331,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 ![预测实验结果](/res/images/posts/mooc2-4.png){: width="100%"}
 
 ####（6）“Turn on, Tune in, Drop out”: Anticipating student dropouts in Massive Open Online Courses
-**论文地址**：
+**论文地址**：<https://pdfs.semanticscholar.org/c134/1b4b24363dc09ba1659c448dcce8442697e6.pdf>
 
 **论文介绍**：
 
@@ -346,7 +346,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 
 #### （7）Shared Task on Prediction of Dropout Over Time in Massively Open Online Courses
-**论文地址**：
+**论文地址**：<https://www.aclweb.org/anthology/W14-4107>
 
 **论文介绍**：
 
