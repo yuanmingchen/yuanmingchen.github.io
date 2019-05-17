@@ -333,6 +333,21 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 ####（6）“Turn on, Tune in, Drop out”: Anticipating student dropouts in Massive Open Online Courses
 **论文地址**：
 
+**论文介绍**：
+
+
+**论文数据**：
+
+
+
+**研究方法**：
+
+
+**实验结果**：
+
+
+#### （7）Shared Task on Prediction of Dropout Over Time in Massively Open Online Courses
+**论文地址**：
 
 **论文介绍**：
 
@@ -344,13 +359,69 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **研究方法**：
 
 
-**实验结果**
-#### （7）Shared Task on Prediction of Dropout Over Time in Massively Open Online Courses
+**实验结果**：
+
 
 #### （8）Towards an Integration of Text and Graph Clustering Methods as a Lens for Studying Social Interaction in MOOCs
+**论文地址**：
+
+**论文介绍**：
+
+
+**论文数据**：
+
+
+
+**研究方法**：
+
+
+**实验结果**：
+
 
 #### （9）Transfer Learning for Predictive Models in Massive Open Online Courses
+**论文地址**：
+
+**论文介绍**：
+
+
+**论文数据**：
+
+
+
+**研究方法**：
+
+
+**实验结果**：
+
 
 #### （10）Social Factors that Contribute to Attrition in MOOCs
+**论文地址**：
+
+**论文介绍**：
+
+
+**论文数据**：
+
+
+
+**研究方法**：
+
+
+**实验结果**：
+
 
 #### （11）Identifying Latent Study Habits by Mining Learner Behavior Patterns in Massive Open Online Courses
+**论文地址**：
+
+**论文介绍**：
+
+
+**论文数据**：
+
+
+
+**研究方法**：
+
+
+**实验结果**：
+
