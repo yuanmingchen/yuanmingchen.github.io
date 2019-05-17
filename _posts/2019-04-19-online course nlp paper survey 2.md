@@ -253,6 +253,7 @@ $P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当
 **研究方法**：
 构建了一个编码手册【一系列规则】，标注每个帖子是不是高阶思考行为。
 1、把学生分成三个群体：高阶思考、专注课件、不讨论。使用回归模型，因变量是测后成绩，控制变量包括测前成绩、帖子数、是否注册、是否点击视频、是否点击测验、课程网站点击数、论坛点击数。
+研究高阶思维组比专注课件组的成绩更好，收获更多。
 
 我们利用前面介绍的所有控制变量作为学生参与课程的特征，建立了逻辑回归模型，预测学生在课程中出现高阶思维行为的概率。
 
@@ -260,9 +261,10 @@ $P(w)$表示情感词$w$在评论中出现的概率，$P(TopicKeyword)$表示当
 cmu的课程《Introduction to Psychology as a Science》，该数据集共包含27750名注册用户的数据，以及7990篇文章和评论。其中，有1079名学习者同时进行了前测和后测，其中491人参加了论坛，共发表帖子和评论3864条。
 
 除了论坛记录，点击流数据中还记录了与课程材料相关的学生点击量。课程记录包含1487665次学生点击。这些数据为我们提供了一个机会，监控学生与课程材料的互动过程。
-流程：逻辑回归训练模型，实验组和对照组的人进行相似行为匹配，然后预测测后成绩。高阶思维成绩更高。
+流程：逻辑回归训练模型，预测学生在课程中出现高阶思维行为的概率。实验组和对照组的人进行相似行为匹配，然后预测测后成绩。高阶思维成绩更高。
 
 **实验结果**：
+在第一个研究问题的驱动下，我们发现，表现出更高阶思维行为的学生，通过对讨论行为所展示的课程材料进行更深入的参与，学习得更多。在这门课中，表现出高阶思维行为的学生比单纯关注课程材料的学生学得更多。这些学生也比那些经常在论坛上离题的学生学得更多。将LDA主题建模应用于课程材料的后续分析告诉我们，与生物心理学主题相比，面向社会的主题引发了更丰富的讨论，更高阶的思维行为往往在论坛的线程中一起出现。
 
 #### （5）Towards Identifying the Resolvability of Threads in MOOCs
 **论文地址**：<https://www.aclweb.org/anthology/W14-4104>
@@ -328,5 +330,14 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 ![预测实验结果](/res/images/posts/mooc2-4.png){: width="100%"}
 
+####（6）“Turn on, Tune in, Drop out”: Anticipating student dropouts in Massive Open Online Courses
 
+#### （7）Shared Task on Prediction of Dropout Over Time in Massively Open Online Courses
 
+#### （8）Towards an Integration of Text and Graph Clustering Methods as a Lens for Studying Social Interaction in MOOCs
+
+#### （9）Transfer Learning for Predictive Models in Massive Open Online Courses
+
+#### （10）Social Factors that Contribute to Attrition in MOOCs
+
+#### （11）Identifying Latent Study Habits by Mining Learner Behavior Patterns in Massive Open Online Courses
