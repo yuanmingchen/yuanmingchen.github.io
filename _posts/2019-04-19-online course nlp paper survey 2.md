@@ -283,6 +283,7 @@ cmu的课程《Introduction to Psychology as a Science》，该数据集共包�
 
 
 **研究方法**：
+
 作者把一个线程中的参与者分成了以下几种用户角色：
 - 1、发起者（Starter）：线程问题的发起者，提问者
 - 2、导师（Instructors）：老师和助教同城导师
