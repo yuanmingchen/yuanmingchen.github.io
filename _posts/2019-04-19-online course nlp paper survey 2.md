@@ -375,6 +375,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 最早加入的学生更有可能积极参加讨论课程的早期部分，后来加入的学生和他们进行讨论的可能性不高。后来的学生更有可能留在外围，早来的学生则继续相互交流。后来的学生发帖率低于先来的学生。这种模式要么指出了早入校的学生和晚入校的学生之间动机上的差异，要么指出了晚入校的学生在正确融入课程方面面临的挑战。
 
+![实验结果](/res/images/posts/mooc2-5.png){: width="100%"}
 
 
 #### （7）Shared Task on Prediction of Dropout Over Time in Massively Open Online Courses
