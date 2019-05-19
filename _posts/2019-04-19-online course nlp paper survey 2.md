@@ -380,16 +380,16 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 #### （7）Shared Task on Prediction of Dropout Over Time in Massively Open Online Courses
 **论文地址**：<https://www.aclweb.org/anthology/W14-4107>
 
-**论文介绍**：
+**论文介绍**： 
 
 
-**论文数据**：
+**论文数据**：  
 
 
-**研究方法**：
+**研究方法**：  
 
 
-**实验结果**：
+**实验结果**：  
 
 
 #### （8）Towards an Integration of Text and Graph Clustering Methods as a Lens for Studying Social Interaction in MOOCs
