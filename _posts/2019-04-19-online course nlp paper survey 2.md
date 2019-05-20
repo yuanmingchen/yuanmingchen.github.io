@@ -468,6 +468,9 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 **实验结果**： 
 
+![问题分类](/res/images/posts/mooc2-8.png){: width="100%"}
+
+
 
 #### （10）Social Factors that Contribute to Attrition in MOOCs
 **论文地址**：<http://www.cs.cmu.edu/~mwen/papers/p197-rose.pdf>
