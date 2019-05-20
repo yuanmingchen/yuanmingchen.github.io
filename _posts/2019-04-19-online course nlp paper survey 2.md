@@ -455,6 +455,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
     - 多任务学习法：$\left\{\begin{array}{l}{w_{S}=v_{S}+c_{0}} \\ {w_{T}=v_{T}+c_{0}}\end{array}\right.$
     
     $$\begin{array}{l}{\left(w_{S}^{*}, w_{T}^{*}\right)=\arg \min _{v_{S}, v_{T}, w_{0}} \sum_{i=1 : n_{S}} l\left(x_{S i}, y_{S i}, w_{S}\right)+}{\sum_{i=1 : n_{T}} l\left(x_{T i}, y_{T i}, w_{T}\right)+\frac{\lambda_{1}}{2}\left(\left\|v_{s}\right\|^{2}+\left\|v_{T}\right\|^{2}\right)+\lambda_{2}\left\|c_{0}\right\|^{2}}\end{array}$$
+    实验中，作者使用$\lambda_{1}=0.2$，$\lambda_{2}=0.8$
 
 
 **实验结果**： 
