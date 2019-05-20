@@ -415,16 +415,16 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 #### （9）Transfer Learning for Predictive Models in Massive Open Online Courses
 **论文地址**：[Transfer Learning for Predictive Models in Massive Open Online Courses](/res/doc/mooc2-1.pdf)
 
-**论文介绍**：
+**论文介绍**： 
+题目是在mooc中预测模型的迁移学习。基于用户过去的课程信息预测他是否会中途辍学。并且评估了多种迁移学习方法。
+
+**论文数据**： 
 
 
-**论文数据**：
+**研究方法**： 
 
 
-**研究方法**：
-
-
-**实验结果**：
+**实验结果**： 
 
 
 #### （10）Social Factors that Contribute to Attrition in MOOCs
