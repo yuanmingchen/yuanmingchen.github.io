@@ -406,11 +406,11 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **论文数据**：
 还是那三个课程。
 
-**研究方法**：
+**研究方法**：  
+创建了一个LDAMMSB模型，可以提炼出20个子论坛，每个子论坛有一个话题，每个学生可以属于多个子论坛。使用生存模型分析，因变量是辍学率，独立变量是20个话题。
 
-
-**实验结果**：
-
+**实验结果**：  
+每个课程的20个话题中都有几个的辍学率明显高于或低于整体的平均辍学率，然后分析发现辍学率偏低的子论坛讨论的话题与课程内容更加相关，而辍学率偏高的子话题讨论的内容与课程更加无关。
 
 #### （9）Transfer Learning for Predictive Models in Massive Open Online Courses
 **论文地址**：[Transfer Learning for Predictive Models in Massive Open Online Courses](/res/doc/mooc2-1.pdf)
