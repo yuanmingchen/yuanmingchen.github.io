@@ -174,10 +174,9 @@ $(document).ready(function(){
 });
 
 $(".jumper").on("click", function( e ) {
-  e.preventDefault();
-  $("body, html").animate({
-    scrollTop: $( $(this).attr('href') ).offset().top
-  }, 600);
-  window.location.href = "http";
-  alert("上联：山石岩下古木枯");
+  //e.preventDefault();
+  //$("body, html").animate({
+  //  scrollTop: $( $(this).attr('href') ).offset().top
+  //}, 600);
+  alert("-----------");
 });
