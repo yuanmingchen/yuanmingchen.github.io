@@ -439,3 +439,179 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 ![实验结果](/res/images/posts/mooc3-3.png){: width="100%"}
 
 
+### 12、Question Recommendation with Constraints for Massive Open Online Courses
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 13、Forum Thread Recommendation for Massive Open Online Courses
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 14、Constrained Question Recommendation in MOOCs via Submodularity
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 15、Reputation Systems’ Impact on Help Seeking in MOOC Discussion Forums
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 16、Investigating how student’s cognitive behavior in MOOC discussion forums affect learning gains
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 17、Alleviating the Negative Effect of Up and Downvoting on Help Seeking in MOOC Discussion Forums
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 18、Fostering Discussion across Communication Media in Massive Open Online Courses
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 19、Virtual Teams in Massive Open Online Courses
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 20、Peer Influence on Attrition in Massive Open Online Courses
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 21、Positive Impact of Collaborative Chat Participation in an edX MOOC
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
+### 22、Supportive technologies for group discussion in MOOCs
+**论文地址**：  
+
+
+**论文介绍**：  
+
+
+**论文数据**：  
+
+
+**论研究方法**：  
+
+
+**实验结果**：  
+
+
