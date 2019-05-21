@@ -18,10 +18,6 @@
         return '%' + c.charCodeAt(0).toString(16);
       });
     }
-	
-	function set_url() {
-      alert("------");
-    }
 
     var headers = $(settings.headers).filter(function() {
       // get all headers with an ID
@@ -69,7 +65,7 @@
       }
       if (this_level === level) {// same level as before; same indenting
         html += "<li class=\"toc-item toc-level-" + this_level + "\">";
-        html += "<a class=\"jumper\" href='#" + fixedEncodeURIComponent(header.id) + "'onclick=\"set_url()\">";
+        html += "<a class=\"jumper\" href='#" + fixedEncodeURIComponent(header.id) + "'>";
         html += "<span class='toc-text'>" + header.innerHTML + "</span>";
         html += "</a>";
 
@@ -77,13 +73,13 @@
         for(i = this_level; i < level; i++) {
           html += "</li></"+settings.listType+">"
         }
-        html += "<li class='toc-item toc-level-" + this_level + "'><a class=\"jumper\" href='#" + fixedEncodeURIComponent(header.id) + "'onclick=\"set_url()\">";
+        html += "<li class='toc-item toc-level-" + this_level + "'><a class=\"jumper\" href='#" + fixedEncodeURIComponent(header.id) + "'>";
         html += "<span class='toc-text'>" + header.innerHTML + "</span>";
         html += "</a>";
       }
       else if (this_level > level) { // lower level than before; expand the previous to contain a ol
         for(i = this_level; i > level; i--) {
-          html += "<"+settings.listType+" class='toc-child'><li class='toc-item toc-level-" + i + "'onclick=\"set_url()\">"
+          html += "<"+settings.listType+" class='toc-child'><li class='toc-item toc-level-" + i + "'>"
         }
         html += "<a class=\"jumper\" href='#" + fixedEncodeURIComponent(header.id) + "'>";
         html += "<span class='toc-text'>" + header.innerHTML + "</span>";
