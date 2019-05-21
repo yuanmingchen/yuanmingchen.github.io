@@ -3,7 +3,7 @@ layout: post
 title: "在线教育调用3——CMU相关论文"
 description: "在线教育调用3——CMU相关论文"
 category: paper
-slug:onlEduSur3
+slug: onlEduSur3
 tags: []
 ---
 {% include JB/setup %}
