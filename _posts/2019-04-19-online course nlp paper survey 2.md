@@ -9,7 +9,7 @@ tags: []
 {% include JB/setup %}
 基于之前的粗略调研，我们确定关键词并寻找论文，我们继续调研在线教育领域相关论文的研究内容及方法。本次调研的主要是EMNLP、ACL相关论文，大多数来自EMNLP2014的共享任务。
 
-### 在线教育领域NLP论文调研2——ACL、EMNLP相关论文
+#### 在线教育领域NLP论文调研2——ACL、EMNLP相关论文
 #### （1）Your click decides your fate: Inferring Information Processing and Attrition Behavior from MOOC Video Clickstream Interactions
 **论文地址**：<https://www.aclweb.org/anthology/W14-4102>  【EMNLP 2014】
 **任务简介**：

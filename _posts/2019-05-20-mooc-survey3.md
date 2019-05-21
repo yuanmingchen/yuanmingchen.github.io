@@ -441,7 +441,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 ![实验结果](/res/images/posts/mooc3-3.png){: width="100%"}
 
 
-### 12、Question Recommendation with Constraints for Massive Open Online Courses
+#### 12、Question Recommendation with Constraints for Massive Open Online Courses
 **论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/recsys14.pdf>
 
 
@@ -457,7 +457,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 13、Forum Thread Recommendation for Massive Open Online Courses
+#### 13、Forum Thread Recommendation for Massive Open Online Courses
 **论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/edm14_recom.pdf>
 
 
@@ -473,7 +473,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 14、Constrained Question Recommendation in MOOCs via Submodularity
+#### 14、Constrained Question Recommendation in MOOCs via Submodularity
 **论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/cikm14.pdf>  
 
 
@@ -489,7 +489,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 15、Reputation Systems’ Impact on Help Seeking in MOOC Discussion Forums
+#### 15、Reputation Systems’ Impact on Help Seeking in MOOC Discussion Forums
 **论文地址**：<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8118179>  
 
 
@@ -505,7 +505,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 16、Investigating how student’s cognitive behavior in MOOC discussion forums affect learning gains
+#### 16、Investigating how student’s cognitive behavior in MOOC discussion forums affect learning gains
 **论文地址**：<http://www.educationaldatamining.org/EDM2015/uploads/papers/paper_89.pdf>  
 
 
@@ -521,7 +521,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 17、Alleviating the Negative Effect of Up and Downvoting on Help Seeking in MOOC Discussion Forums
+#### 17、Alleviating the Negative Effect of Up and Downvoting on Help Seeking in MOOC Discussion Forums
 **论文地址**：<http://www.cs.williams.edu/~iris/website/pubs/2015howley_AlleviatingNegEffOfVotingInMOOCs.pdf>  
 
 
@@ -537,7 +537,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 18、Fostering Discussion across Communication Media in Massive Open Online Courses
+#### 18、Fostering Discussion across Communication Media in Massive Open Online Courses
 **论文地址**：<https://www.isls.org/cscl2015/papers/MC-0404-FullPaper-Rose.pdf>  
 
 
@@ -553,7 +553,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 19、Virtual Teams in Massive Open Online Courses
+#### 19、Virtual Teams in Massive Open Online Courses
 **论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/aied15_wen.pdf>  
 
 
@@ -569,7 +569,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 20、Peer Influence on Attrition in Massive Open Online Courses
+#### 20、Peer Influence on Attrition in Massive Open Online Courses
 **论文地址**：  
 
 
@@ -585,7 +585,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 21、Positive Impact of Collaborative Chat Participation in an edX MOOC
+#### 21、Positive Impact of Collaborative Chat Participation in an edX MOOC
 **论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/edm2014_peer.pdf>  
 
 
@@ -601,7 +601,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 **实验结果**：  
 
 
-### 22、Supportive technologies for group discussion in MOOCs
+#### 22、Supportive technologies for group discussion in MOOCs
 **论文地址**：<https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1012&context=ciee>  
 
 
