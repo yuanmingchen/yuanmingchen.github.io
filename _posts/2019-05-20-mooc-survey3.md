@@ -7,7 +7,6 @@ slug: onlEduSur3
 tags: []
 ---
 {% include JB/setup %}
-
 这次调研的主要是CMU的研究团队关于MOOC的数据挖掘行为分析的一些论文，有二十余篇。
 
 ### 在线教育调用3——CMU相关论文
