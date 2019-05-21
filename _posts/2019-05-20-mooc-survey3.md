@@ -9,7 +9,7 @@ tags: []
 {% include JB/setup %}
 这次调研的主要是CMU的研究团队关于MOOC的数据挖掘行为分析的一些论文，有二十余篇。
 
-### 在线教育调用3——CMU相关论文
+### 在线教育调研3——CMU相关论文
 #### （1）Sentiment Analysis in MOOC Discussion Forums:What does it tell us?
 **论文地址**：<https://www.cs.cmu.edu/~mwen/papers/edm2014-camera-ready.pdf>
 
