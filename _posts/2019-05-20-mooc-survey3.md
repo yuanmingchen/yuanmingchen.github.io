@@ -570,7 +570,8 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 
 #### 20、Peer Influence on Attrition in Massive Open Online Courses
-**论文地址**：  
+**论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/edm2014_peer.pdf>  
+  
 
 
 **论文介绍**：  
@@ -586,7 +587,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 
 #### 21、Positive Impact of Collaborative Chat Participation in an edX MOOC
-**论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/edm2014_peer.pdf>  
+**论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/aied15.pdf>  
 
 
 **论文介绍**：  
