@@ -24,4 +24,6 @@ tags: []
 
 **提取码**：jy6b   
 程序界面截图如下：  
-![茉莉音乐下载器](/res/images/posts/sw1-1.png)
+![茉莉音乐下载器](/res/images/posts/sw1-1.png){: width="100%"}
+
+
