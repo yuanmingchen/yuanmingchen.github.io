@@ -44,8 +44,8 @@ tags: []
 - 支持下载歌词，支持软件内显示歌词，不支持桌面歌词
 - 支持windows系统和Mac系统，不支持手机、平板端。
 
-**下载链接**：https://github.com/lyswhut/lx-music-desktop/releases
+**下载链接**：<https://github.com/lyswhut/lx-music-desktop/releases>
 
 程序界面截图如下：
 
-![茉莉音乐下载器](https://tva1.sinaimg.cn/large/00831rSTly1gcprnt7butj31b80u0jzd.jpg){: width="80%"}
+![茉莉音乐下载器](../res/images/posts/sw2-1.png){: width="80%"}
