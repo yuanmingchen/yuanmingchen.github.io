@@ -10,6 +10,7 @@ tags: []
 这次调研的主要是CMU的研究团队关于MOOC的数据挖掘行为分析的一些论文，有二十余篇。
 
 #### 在线教育调研3——CMU相关论文
+
 #### （1）Sentiment Analysis in MOOC Discussion Forums:What does it tell us?
 **论文地址**：<https://www.cs.cmu.edu/~mwen/papers/edm2014-camera-ready.pdf>
 
@@ -373,8 +374,9 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
     
     $$\begin{array}{l}{\left(w_{S}^{*}, w_{T}^{*}\right)=\arg \min _{v_{S}, v_{T}, w_{0}} \sum_{i=1 : n_{S}} l\left(x_{S i}, y_{S i}, w_{S}\right)+}{\sum_{i=1 : n_{T}} l\left(x_{T i}, y_{T i}, w_{T}\right)+\frac{\lambda_{1}}{2}\left(\left\|v_{s}\right\|^{2}+\left\|v_{T}\right\|^{2}\right)+\lambda_{2}\left\|c_{0}\right\|^{2}}\end{array}$$
     实验中，作者使用$\lambda_{1}=0.2$，$\lambda_{2}=0.8$，分别控制独立部分和共享部分的权重。
-    - 用先验方法进行逻辑回归：解决多任务学习方法每个协变量赋予相同权重的问题，对每个协变量赋予不同权重，并且权重可以变化，假设每个权重符合高斯分布，把数据分成十组，用着十组数据估计每个权重的高斯分布参数，作为先验分布。
-
+    
+- 用先验方法进行逻辑回归：解决多任务学习方法每个协变量赋予相同权重的问题，对每个协变量赋予不同权重，并且权重可以变化，假设每个权重符合高斯分布，把数据分成十组，用着十组数据估计每个权重的高斯分布参数，作为先验分布。
+    
 - 3、**直推迁移学习法**：我们虽然没有T的标注数据，但是我们有T的输入数据，即用户的特征，所以我们训练模型的时候，对于S中的不同学习者给与不同权重，衡量S中的每个学习者与T中学习者的相似性，相似度越高的数据越重要。
 
 汇总一下，作者实际上将预测问题即解决方案分成了好几种，如下图所示：
@@ -610,7 +612,7 @@ Python编程课程论坛，将论坛集限制为集中于讨论课程内容的�
 
 #### 20、Peer Influence on Attrition in Massive Open Online Courses
 **论文地址**：<https://www.cs.cmu.edu/~diyiy/docs/edm2014_peer.pdf>  
-  
+
 
 
 **论文介绍**：  
