@@ -28,6 +28,8 @@ tags: []
 
 使用以下宏，可以将文件按照行数分隔为多个文件，每个文件都含有表头
 
+
+
 ```visual basic
 Sub cfb()
 Dim r, c, i, WJhangshu, WJshu, bt As Long
@@ -48,5 +50,7 @@ ActiveWorkbook.SaveAs FileName:=ThisWorkbook.Path & "/FileName" & Format(i + 1, 
 Next
 End Sub
 ```
+
+
 
 **参考博客**：[https://blog.csdn.net/bohu83/article/details/76273361](https://blog.csdn.net/bohu83/article/details/76273361)
