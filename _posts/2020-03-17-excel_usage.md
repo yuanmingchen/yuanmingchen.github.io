@@ -30,7 +30,7 @@ tags: []
 
 
 
-```visual basic
+```python
 Sub cfb()
 Dim r, c, i, WJhangshu, WJshu, bt As Long
 r = Range("A" & Rows.Count).End(xlUp).Row
